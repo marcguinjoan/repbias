@@ -3,13 +3,13 @@ title: "Origins of Institutions"
 ---
 
 ```{=html}
-<div class="hero-section photo-hero" style="background-image:url('images/origins_callaghan.jpg');">
+<div class="hero-section photo-hero" style="background-image:url('images/origins_parliament.jpg');">
   <div class="hero-text">
     <span class="hero-eyebrow">ORIGINS OF INSTITUTIONS</span>
     <h1>Are Electoral Institutions Endogenous?</h1>
     <p>Two centuries of redistricting evidence on whether the elites who design electoral rules bend them to their own advantage.</p>
   </div>
-  <div class="hero-credit">James Callaghan, photographed in 1975. As Labour Home Secretary in 1969, he delayed implementing boundary changes that would have disadvantaged Labour until after the 1970 election. Photo: Christian Lambiotte / European Communities (CC BY 4.0), via Wikimedia Commons.</div>
+  <div class="hero-credit"><em>The House of Commons, 1833</em> ("The Meeting of the First Reformed Parliament"), by Sir George Hayter — the first sitting of the Commons after the 1832 Reform Act. National Portrait Gallery, London, via Wikimedia Commons (public domain).</div>
   <div class="scroll-hint">&darr; scroll to explore</div>
 </div>
 ```
@@ -54,7 +54,7 @@ Across 27 electoral-system reform episodes in 13 countries, malapportionment fal
 
 #### The one thing elites do control: timing
 
-Under political control, governments delay correcting their *own* over-represented seats longer than they delay correcting the opposition's. It was the one robust partisan fingerprint the research found — and it disappeared entirely once redistricting was handed to independent commissions.
+Under political control, governments delay correcting their *own* over-represented seats longer than they delay correcting the opposition's — as when UK Labour Home Secretary James Callaghan shelved the 1969 Boundary Commission recommendations, which would have disadvantaged his party, until after the 1970 election. It was the one robust partisan fingerprint the research found — and it disappeared entirely once redistricting was handed to independent commissions.
 :::
 
 ::: {.insight-card .surface-card}

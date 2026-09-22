@@ -5,9 +5,9 @@ project:
     - maps/widgets/**
     - .nojekyll
     - images/home_reform_act_1832.jpg
-    - images/origins_callaghan.jpg
+    - images/origins_parliament.jpg
     - images/malapportionment_old_sarum.jpg
-    - images/minority_mete_kingi.jpg
+    - images/minority_maori_parliament.webp
     - images/decomposing_bias_distortion.svg
 
 website:

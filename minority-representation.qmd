@@ -6,13 +6,13 @@ format:
 ---
 
 ```{=html}
-<div class="hero-section photo-hero" style="background-image:url('images/minority_mete_kingi.jpg'); background-position:center 20%;">
+<div class="hero-section photo-hero" style="background-image:url('images/minority_maori_parliament.webp'); background-position:center 25%;">
   <div class="hero-text">
     <span class="hero-eyebrow">MINORITY REPRESENTATION</span>
     <h1>Protecting — or Excluding — Minorities</h1>
     <p>How malapportionment shapes the representation of ethnic minorities across 84 countries.</p>
   </div>
-  <div class="hero-credit">Mete Kīngi Paetahi, photographed c. 1869, one of the first four Māori MPs elected to New Zealand's reserved Māori seats, created in 1867. National Library of New Zealand, via Wikimedia Commons (public domain in NZ).</div>
+  <div class="hero-credit">The Māori Parliament (Kotahitanga movement), 1913 — delegates gathered under New Zealand's reserved Māori parliamentary seats, created in 1867. Photo: Otago Witness, via Otago Daily Times.</div>
   <div class="scroll-hint">&darr; scroll to explore</div>
 </div>
 ```
