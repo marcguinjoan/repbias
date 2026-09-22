@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - maps/widgets/**
+
+website:
+  title: "REPBIAS"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: papers.qmd
+        text: Papers
+      - href: simulations.qmd
+        text: Simulations
+      - href: maps.qmd
+        text: Maps
+      - href: team.qmd
+        text: Team
+
+lang: en
+
+format:
+  html:
+    theme:
+      dark: darkly
+      light: flatly
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    link-external-icon: true
+    link-external-newwindow: true
+
+editor: visual

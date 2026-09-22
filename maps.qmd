@@ -1,0 +1,43 @@
+---
+title: "Maps"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+::: embed-page-body
+
+## Malapportionment and representation bias around the world
+
+From *Distorted Democracies* (Beramendi, Boix, Guinjoan &amp; Rogers): malapportionment (Samuels &amp; Snyder index) alongside the two representation-bias measures from the paper — **MRB** (the share of ideological bias attributable specifically to malapportionment) and **TRB** (total representation bias). Switch between metrics and between lower/upper chambers, search or click a country for its exact value.
+
+:::
+
+```{=html}
+<div class="embed-wrap surface-card">
+<iframe src="maps/widgets/distorted_democracies_map.html" loading="lazy" title="Interactive map of malapportionment and representation bias by country" style="height:min(75vh, 720px);"></iframe>
+</div>
+```
+
+::: embed-footnote
+Country-level averages computed from the paper's own replication dataset (`MAL_countries.dta`), following the same aggregation used to produce Figure 1 of the paper ("Malapportionment in the World"). Grey countries have no data for the selected metric/chamber.
+:::
+
+::: embed-page-body
+
+## Malapportionment and ethnic minority representation
+
+From *Electoral institutions, malapportionment and the representation of ethnic minorities* (Guinjoan, Mas &amp; Roura): malapportionment alongside the presence of ethnic minorities across legislative districts (lower chamber). Countries marked with a red cross have constitutionally reserved seats for ethnic minorities.
+
+:::
+
+```{=html}
+<div class="embed-wrap surface-card">
+<iframe src="maps/widgets/ethnicity_map.html" loading="lazy" title="Interactive map of malapportionment and ethnic minority representation" style="height:min(75vh, 720px);"></iframe>
+</div>
+```
+
+::: embed-footnote
+Country-level averages computed from the paper's own replication dataset (`mal_ctr_merge`), reproducing the logic of the paper's Figure 1 and Figure C1 maps. Lower chamber only. Grey countries have no data.
+:::

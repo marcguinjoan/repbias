@@ -1,0 +1,108 @@
+---
+title: ""
+toc: false
+---
+
+```{=html}
+<div class="hero-section">
+  <div class="hero-text">
+    <span class="hero-eyebrow">REPBIAS &middot; PID2021-128332NA-I00</span>
+    <h1>The Sources of Representation Bias</h1>
+    <p>Why elected representatives rarely mirror the electorate that put them there &mdash; and how one overlooked institution, malapportionment, shapes who gets heard.</p>
+  </div>
+  <div class="scroll-hint">&darr; scroll to explore</div>
+</div>
+```
+
+:::::::::: project-body
+
+## What is representation bias?
+
+Modern parliaments are rarely a mirror of the societies that elect them. The preferences of policy-makers — and the policies they enact — are seldom fully congruent with those of the citizens they represent. Political science has traditionally explained this *representation bias* through three lenses: **who gets elected** (elite selection), **who turns out to vote** (electoral participation), and **the rules of the game** (electoral institutions).
+
+REPBIAS focuses on the third lens, and in particular on one institution that has received comparatively little attention despite its consequences: **malapportionment** — the mismatch between the share of seats and the share of votes (or population) allocated to each electoral district. When districts of very different sizes elect the same number of representatives, some votes simply count more than others.
+
+## What the project does
+
+*The sources of representation bias: An historical political economy approach* (REPBIAS) is led by **Marc Guinjoan** (Universitat Autònoma de Barcelona) as Principal Investigator, and funded by the Spanish Ministry of Science and Innovation (PID2021-128332NA-I00).
+
+The project works at two levels. First, at the **aggregate level**: how much does malapportionment actually distort representation, compared with district magnitude, seat-allocation formulas, or legal thresholds? Where does it come from historically, and have elites used it to entrench their own power? What role does it play in protecting or excluding ethnic and national minorities? Second, once these aggregate distortions are mapped out, the project moves to the **individual level**: how do citizens perceive and evaluate the electoral rules that shape their representation, and does the information they receive actually change how they vote?
+
+## Main findings
+
+::::::: insight-grid
+::: {.insight-card .surface-card}
+<span class="insight-icon">🗳️</span>
+
+### District magnitude, not malapportionment, still rules
+
+Across 65 democracies, district magnitude remains the single strongest institutional predictor of representation bias — ahead of malapportionment, the seat-allocation formula, or legal thresholds.
+:::
+
+::: {.insight-card .surface-card}
+<span class="insight-icon">⚖️</span>
+
+### Malapportionment isn't systematically right-biased
+
+Contrary to the anecdotal case of Spain, malapportionment shows no consistent ideological direction in lower chambers worldwide — it favours the left as often as the right. Upper chambers are the exception, leaning right.
+:::
+
+::: {.insight-card .surface-card}
+<span class="insight-icon">🏛️</span>
+
+### Reforms tend to democratize, not entrench
+
+Historically, electoral reforms have leaned more towards democratization than towards protecting incumbents — governments in consolidated democracies show little systematic ability to gerrymander malapportionment to their own advantage.
+:::
+
+::: {.insight-card .surface-card}
+<span class="insight-icon">🌍</span>
+
+### A tool for — and against — minorities
+
+Malapportionment has long been used to protect the representation of ethnic and national minorities, and remains widely used for that purpose in states transitioning between democracy and autocracy.
+:::
+
+::: {.insight-card .surface-card}
+<span class="insight-icon">🚩</span>
+
+### Autocrats reform when threatened
+
+In authoritarian regimes, electoral reforms are activated above all when rulers perceive a threat to their power — and the more ethnically diverse the country, the more likely those reforms take a territorial form.
+:::
+
+::: {.insight-card .surface-card}
+<span class="insight-icon">📱</span>
+
+### Information reinforces, it rarely converts
+
+A large-scale Voting Advice Application experiment in Spain shows personalized political information strengthens voters' existing preferences, especially among the undecided — but does not trigger switching between parties.
+:::
+:::::::
+
+## Explore the project
+
+::::: rl-grid
+::: {.rl-card .surface-card}
+<p><a href="papers.qmd"><strong>Papers &amp; data.</strong></a> Nine papers spanning aggregate cross-national analysis, historical data, and individual-level experiments — filterable by level, scope and author.</p>
+:::
+
+::: {.rl-card .surface-card}
+<p><a href="simulations.qmd"><strong>Simulate representation bias.</strong></a> Explore the REPBIAS interactive simulation app, decomposing distortion into its institutional sources.</p>
+:::
+
+::: {.rl-card .surface-card}
+<p><a href="maps.qmd"><strong>Malapportionment around the world.</strong></a> Interactive maps of malapportionment and ideological representation bias, country by country.</p>
+:::
+
+::: {.rl-card .surface-card}
+<p><a href="team.qmd"><strong>Meet the team.</strong></a> A multidisciplinary group of researchers from Spain, the US and Cyprus.</p>
+:::
+:::::
+
+::::::::::
+
+:::::::::: {.funding-footer}
+<p class="grant-line">REPBIAS (PID2021-128332NA-I00) is funded by MCIN/AEI/10.13039/501100011033/FEDER, UE.</p>
+<p class="grant-line">Principal Investigator: Marc Guinjoan &middot; Universitat Autònoma de Barcelona</p>
+::::::::::
