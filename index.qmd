@@ -80,25 +80,27 @@ A large-scale Voting Advice Application experiment in Spain shows personalized p
 :::
 :::::::
 
-## Explore the project
+## Explore by theme
 
 ::::: rl-grid
 ::: {.rl-card .surface-card}
-<p><a href="papers.qmd"><strong>Papers &amp; data.</strong></a> Nine papers spanning aggregate cross-national analysis, historical data, and individual-level experiments — filterable by level, scope and author.</p>
+<p><a href="origins.qmd"><strong>Origins of Institutions.</strong></a> Are electoral rules endogenous to the elites who design them? Two centuries of redistricting evidence, plus the caciquismo/VEARLYDEM historical line.</p>
 :::
 
 ::: {.rl-card .surface-card}
-<p><a href="simulations.qmd"><strong>Simulate representation bias.</strong></a> Explore the REPBIAS interactive simulation app, decomposing distortion into its institutional sources.</p>
+<p><a href="malapportionment-bias.qmd"><strong>Malapportionment Bias.</strong></a> What MRB, SRB, ThRB and TRB mean, and how malapportionment distorts representation across 65 democracies — with an interactive map.</p>
 :::
 
 ::: {.rl-card .surface-card}
-<p><a href="maps.qmd"><strong>Malapportionment around the world.</strong></a> Interactive maps of malapportionment and ideological representation bias, country by country.</p>
+<p><a href="minority-representation.qmd"><strong>Minority Representation.</strong></a> How malapportionment protects — or excludes — ethnic minorities across 84 countries, with an interactive map.</p>
 :::
 
 ::: {.rl-card .surface-card}
-<p><a href="team.qmd"><strong>Meet the team.</strong></a> A multidisciplinary group of researchers from Spain, the US and Cyprus.</p>
+<p><a href="decomposing-bias.qmd"><strong>Decomposing Bias.</strong></a> Try the REPBIAS simulation app yourself, isolating each institutional source of distortion.</p>
 :::
 :::::
+
+Or browse the [full list of papers](papers.qmd), or [meet the team](team.qmd).
 
 ::::::::::
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Papers – REPBIAS</title>
+<title>Decomposing Bias – REPBIAS</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -274,11 +274,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Minority Representation</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./decomposing-bias.html"> 
+    <a class="nav-link active" href="./decomposing-bias.html" aria-current="page"> 
 <span class="menu-text">Decomposing Bias</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./papers.html" aria-current="page"> 
+    <a class="nav-link" href="./papers.html"> 
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
@@ -299,12 +299,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Papers</h1>
+<h1 class="title">Decomposing Bias</h1>
 </div>
 
 
@@ -321,191 +321,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div id="papers-layout" class="page-columns page-full">
-
-<!-- ── Sidebar ─────────────────────────────────────────────────────────── -->
-<aside id="papers-sidebar" class="headroom-target">
-  <p class="sidebar-title">Filter</p>
-
-  <div class="filter-group">
-    <span class="filter-label">Level</span>
-    <select class="filter-select" data-filter="level">
-      <option value="all">All</option>
-      <option value="aggregate">Aggregate</option>
-      <option value="individual">Individual</option>
-    </select>
-  </div>
-
-  <div class="filter-group">
-    <span class="filter-label">Scope</span>
-    <select class="filter-select" data-filter="scope">
-      <option value="all">All</option>
-      <option value="comparative">Cross-country</option>
-      <option value="country">Spain case study</option>
-    </select>
-  </div>
-
-  <div class="filter-group">
-    <span class="filter-label">Time</span>
-    <select class="filter-select" data-filter="time">
-      <option value="all">All</option>
-      <option value="current">Contemporary</option>
-      <option value="historical">Historical</option>
-    </select>
-  </div>
-
-  <div class="filter-group">
-    <span class="filter-label">Author</span>
-    <select class="filter-select" data-filter="author">
-      <option value="all">All</option>
-      <option value="beramendi">Beramendi</option>
-      <option value="bordel">Bordel</option>
-      <option value="boix">Boix</option>
-      <option value="carbonell">Carbonell</option>
-      <option value="djoivas">Djoivas</option>
-      <option value="guinjoan">Guinjoan</option>
-      <option value="ioannidis">Ioannidis</option>
-      <option value="mas">Mas</option>
-      <option value="mendez">Mendez</option>
-      <option value="rodon">Rodon</option>
-      <option value="rogers">Rogers</option>
-      <option value="roura">Roura</option>
-      <option value="vallprat">Vall-Prat</option>
-    </select>
-  </div>
-
-  <button id="reset-filters" class="btn btn-sm btn-outline-secondary">Reset</button>
-</aside>
-
-<!-- ── Papers list ──────────────────────────────────────────────────────── -->
-<div id="papers-list">
-
-<p id="no-results" style="display:none;">No papers match the current filters.</p>
-
-<div class="paper-card" data-level="aggregate" data-scope="comparative" data-time="current" data-authors="beramendi boix guinjoan rogers">
-  <h6 class="paper-title anchored">Distorted Democracies</h6>
-  <p class="paper-authors">Pablo Beramendi, Carles Boix, Marc Guinjoan, Melissa Rogers</p>
-  <div class="paper-tags">
-    <span class="paper-tag">Aggregate</span><span class="paper-tag">Cross-country</span><span class="paper-tag">Contemporary</span>
-  </div>
-  <p class="abstract">To evaluate the extent of malapportionment, that is, the discrepancy between the relative allocation of seats and the relative allocation of votes across districts, we compile and examine a new, comprehensive dataset that includes population and allocation of seats by district and partisan ideology in over 20,000 districts and 1,100 different parties across 65 democracies during the period 1996-2020 in lower and upper chambers. In addition, we pool Spanish survey data (N=488,000) to examine directly how voters' preferences translate into representation as mediated by malapportionment. Our evidence shows that malapportionment is larger in upper than in lower chambers. Contrary to established views, we find that malapportionment is ideologically neutral in the vast majority of lower house elections, and where a detectable bias exists, it is as likely to favor the left as the right. Upper houses present a sharper asymmetry: a rightward bias predominates, and among cases of strong bias, it is exclusively rightward.</p>
+<div class="embed-page-body">
+<section id="unpacking-representation-bias-one-simulation-at-a-time" class="level2">
+<h2 class="anchored" data-anchor-id="unpacking-representation-bias-one-simulation-at-a-time">Unpacking representation bias, one simulation at a time</h2>
+<p>Electoral institutions are hard to study causally with real-world data: malapportionment, district magnitude, the seat-allocation formula and the legal threshold are jointly determined, endogenous, and rarely vary independently of one another in any single country. <em>Unpacking Representation Bias: A Simulation Approach to Electoral Institutions</em> (Guinjoan, Carbonell &amp; Rogers) sidesteps this problem by simulating large numbers of synthetic polities — up to 10,000 runs per exercise — in which each institutional parameter is introduced <strong>exogenously and independently</strong> of the others, and validating the resulting decomposition against real data from Spain’s 2019 European Parliament election.</p>
+<p>This is where <strong>MRB</strong>, <strong>SRB</strong>, <strong>ThRB</strong> and <strong>TRB</strong> — introduced on the <a href="./malapportionment-bias.html">Malapportionment Bias</a> page — are actually separated out:</p>
+<ul>
+<li><strong>Malapportionment</strong> generates the <strong>MRB</strong>.</li>
+<li><strong>District magnitude</strong> and the <strong>seat-allocation formula</strong>, jointly, generate the <strong>SRB</strong>.</li>
+<li>The <strong>legal electoral threshold</strong> generates the <strong>ThRB</strong>.</li>
+<li>The three together sum to the <strong>TRB</strong>, the total gap between the electorate’s ideological centre and that of the elected legislature.</li>
+</ul>
+<section id="headline-findings" class="level3">
+<h3 class="anchored" data-anchor-id="headline-findings">Headline findings</h3>
+<ul>
+<li>Malapportionment bias is generally <strong>modest under random territorial imbalance</strong>, but can become substantial when malapportionment is <strong>ideologically concentrated</strong>.</li>
+<li><strong>SRB is consistently the dominant source of distortion</strong> across the full empirically relevant range of district magnitudes — echoing the <a href="./origins.html">Origins of Institutions</a> finding that district-level rules, not malapportionment alone, do most of the work.</li>
+<li>Legal thresholds generate <strong>meaningful bias only at levels well above common European practice</strong>.</li>
+<li>All three components <strong>scale with party-system polarization and fragmentation</strong>.</li>
+</ul>
+</section>
+</section>
+<section id="try-it-yourself" class="level2">
+<h2 class="anchored" data-anchor-id="try-it-yourself">Try it yourself</h2>
+<p>Use the controls inside the app below to set your own combination of malapportionment, district magnitude, seat-allocation formula and legal threshold, and watch the total distortion — and its MRB / SRB / ThRB decomposition — change in real time.</p>
+</section>
 </div>
-
-<div class="paper-card" data-level="aggregate" data-scope="comparative" data-time="current" data-authors="guinjoan mas roura">
-  <h6 class="paper-title anchored">Electoral institutions, malapportionment and the representation of ethnic minorities</h6>
-  <p class="paper-authors">Marc Guinjoan, Jordi Mas, Xavier Roura</p>
-  <p class="paper-venue"><em>Territory, Politics and Governance</em> (forthcoming)</p>
-  <div class="paper-tags">
-    <span class="paper-tag">Aggregate</span><span class="paper-tag">Cross-country</span><span class="paper-tag">Contemporary</span>
-  </div>
-  <p class="abstract">The representation of ethnic minorities in national legislatures varies widely: in some cases minorities are privileged through ethnic reserved seats or territorial concentration, while in others they remain systematically excluded. This paper addresses a gap in the literature by introducing a novel cross-national dataset covering more than 22,000 legislative districts in 84 countries (1996–2020) in lower-house elections, which for the first time identifies, at the district level, the presence of ethnic minorities excluded from executive power. Our empirical analyses show that countries with ethnic reserved seats for minorities tend to exhibit higher malapportionment, and that minority-concentrated districts are more often over-represented. We also find that over-representation is most pronounced in open autocracies and weak democracies, a pattern consistent with the strategic use of electoral rules.</p>
+<div class="embed-wrap surface-card">
+<iframe src="https://mguinjoan.shinyapps.io/repbias" loading="lazy" title="REPBIAS interactive simulation app"></iframe>
 </div>
-
-<div class="paper-card" data-level="aggregate" data-scope="comparative" data-time="current" data-authors="guinjoan carbonell rogers">
-  <h6 class="paper-title anchored">Unpacking Representation Bias: A Simulation Approach to Electoral Institutions</h6>
-  <p class="paper-authors">Marc Guinjoan, David Carbonell, Melissa Rogers</p>
-  <div class="paper-tags">
-    <span class="paper-tag">Aggregate</span><span class="paper-tag">Cross-country</span><span class="paper-tag">Contemporary</span>
-  </div>
-  <p class="abstract">This paper develops a simulation-based framework to decompose ideological representation bias — the gap between the ideological center of the electorate and that of the elected legislature — into the distinct institutional sources that produce it. We simulate large numbers of synthetic polities (100 districts, up to 10,000 runs per exercise) in which four institutional parameters — malapportionment, district magnitude, the seat-allocation formula, and the legal electoral threshold — are introduced exogenously and independently of each other, and validate the decomposition against real electoral data from Spain's 2019 European Parliament election. Results show that malapportionment bias is generally modest under random territorial imbalance but can become substantial when ideologically concentrated; that seat representation bias is consistently the dominant source of distortion; and that legal thresholds generate meaningful bias only well above common European practice. We accompany the paper with REPBIAS, an open-source Shiny application for research and classroom use.</p>
-  <p class="paper-link">→ <a href="./decomposing-bias.html">Explore the simulation app</a></p>
+<div class="embed-footnote">
+<p>The app accompanies <em>“Unpacking Representation Bias: A Simulation Approach to Electoral Institutions”</em> (Guinjoan, Carbonell &amp; Rogers) — see the <a href="./papers.html">Papers</a> page. If the app does not load above, open it directly at <a href="https://mguinjoan.shinyapps.io/repbias" target="_blank">mguinjoan.shinyapps.io/repbias</a>.</p>
 </div>
-
-<div class="paper-card" data-level="aggregate" data-scope="comparative" data-time="historical" data-authors="guinjoan boix beramendi">
-  <h6 class="paper-title anchored">Historical Malapportionment and Elite Redistricting Strategies</h6>
-  <p class="paper-authors">Marc Guinjoan, Carles Boix, Pablo Beramendi</p>
-  <div class="paper-tags">
-    <span class="paper-tag">Aggregate</span><span class="paper-tag">Cross-country</span><span class="paper-tag">Historical</span>
-  </div>
-  <p class="abstract"><em>Working paper — abstract not yet available.</em> Traces the historical evolution of legislative apportionment across 14 countries over almost two centuries (1832–2022), covering more than 67,000 district-election observations, to examine how electoral districts were redrawn across successive reforms and what this reveals about elite redistricting strategies.</p>
-</div>
-
-<div class="paper-card" data-level="aggregate" data-scope="comparative" data-time="current" data-authors="bordel">
-  <h6 class="paper-title anchored">Strategic Distortions: Electoral Reforms in Authoritarian Regimes</h6>
-  <p class="paper-authors">Jaime Bordel</p>
-  <div class="paper-tags">
-    <span class="paper-tag">Aggregate</span><span class="paper-tag">Cross-country</span><span class="paper-tag">Contemporary</span>
-  </div>
-  <p class="abstract">The literature on electoral reforms in authoritarian regimes has gained increasing relevance in recent years. However, two fundamental questions remain unresolved: when do autocrats reform electoral rules, and why do they adopt some types of reforms over others? This paper argues that electoral reforms are strategic responses to bottom-up pressures rather than signs of liberalization or regime strength, and that the salience of ethnic cleavages conditions the content of reform. Using an original dataset covering all electoral reforms in electoral autocracies from 1980 to 2023, the empirical evidence shows that authoritarian control problems increase the likelihood of reform, while ethnic fractionalization significantly raises the probability of adopting partisan-biased reforms.</p>
-</div>
-
-<div class="paper-card" data-level="individual" data-scope="country" data-time="current" data-authors="guinjoan ioannidis rodon mendez djoivas">
-  <h6 class="paper-title anchored">How Tailored Information Influences Election Dynamics</h6>
-  <p class="paper-authors">Marc Guinjoan, Nikandros Ioannidis, Toni Rodon, Fernando Mendez, Costas Djoivas</p>
-  <div class="paper-tags">
-    <span class="paper-tag">Individual</span><span class="paper-tag">Spain</span><span class="paper-tag">Contemporary</span>
-  </div>
-  <p class="abstract">Voting Advice Applications (VAAs) have become increasingly popular tools for delivering personalized political information to voters ahead of elections. Using an experimental design deployed in Spain during the 2023 national election (N=156,403) — the largest VAA experiment ever fielded — we identify the causal effect of party information provision on voters' likelihood of supporting a given party. Users exposed to personalized information reported significantly higher probabilities of voting for the party they already intended to support, and a lower vote intention for other parties within the same ideological bloc; the effect was strongest among undecided voters. Overall, the evidence suggests that VAAs may reinforce existing predispositions to vote for a preselected party, but we find no indication that they lead to vote switching.</p>
-</div>
-
-<div class="paper-card" data-level="individual" data-scope="country" data-time="current" data-authors="bordel">
-  <h6 class="paper-title anchored">Beyond Partisanship: Territorial and Negative Self-Interest in Electoral System Evaluations</h6>
-  <p class="paper-authors">Jaime Bordel</p>
-  <div class="paper-tags">
-    <span class="paper-tag">Individual</span><span class="paper-tag">Spain</span><span class="paper-tag">Contemporary</span>
-  </div>
-  <p class="abstract">Research on how citizens evaluate electoral rules typically contrasts explanations based on normative principles with those centered on partisan self-interest. This paper develops a self-interest-based framework showing that self-interest can operate along multiple political cleavages beyond partisanship, incorporating territorial self-interest, and that negative information about how rules treat disliked actors can be especially mobilizing. A vignette survey experiment in Spain (n = 3,010) shows that partisan and territorial self-interest shape citizens' evaluations in uneven ways across ideological blocks: treatments signaling that partisan actors were disadvantaged reduced satisfaction among both left- and right-wing voters, while treatments activating territorial conflict produced larger shifts among right-wing respondents.</p>
-</div>
-
-<div class="paper-card" data-level="aggregate" data-scope="country" data-time="historical" data-authors="bordel guinjoan rodon vallprat">
-  <h6 class="paper-title anchored">Legacies of Caciquism on Electoral Coordination</h6>
-  <p class="paper-authors">Jaime Bordel-Gil, Marc Guinjoan, Toni Rodon, Pau Vall-Prat</p>
-  <div class="paper-tags">
-    <span class="paper-tag">Aggregate</span><span class="paper-tag">Spain</span><span class="paper-tag">Historical</span>
-  </div>
-  <p class="abstract"><em>Early draft — abstract not yet available.</em> Examines how exposure to <em>caciquismo</em> — clientelist electoral control — during the Spanish Restoration shaped electoral coordination decades later, during the Second Republic (1931–1936). Using a regression discontinuity design around historical district borders, the paper shows that municipalities more exposed to clientelist control display a higher share of wasted votes once competitive elections return, consistent with the erosion of the civic and partisan structures voters rely on to coordinate their choices.</p>
-</div>
-
-<div class="paper-card" data-level="individual" data-scope="country" data-time="current" data-authors="bordel">
-  <h6 class="paper-title anchored">Conjoint electoral systems</h6>
-  <p class="paper-authors">Jaime Bordel</p>
-  <div class="paper-tags">
-    <span class="paper-tag">Individual</span><span class="paper-tag">Spain</span><span class="paper-tag">Contemporary</span>
-  </div>
-  <p class="abstract"><em>Fieldwork scheduled for October 2026 — abstract not yet available.</em> A conjoint survey experiment on electoral system preferences — the fourth and final paper of Jaime Bordel's doctoral thesis.</p>
-</div>
-
-</div><!-- #papers-list -->
-</div><!-- #papers-layout -->
-
-<script>
-(function () {
-  const cards   = Array.from(document.querySelectorAll('.paper-card'));
-  const selects = Array.from(document.querySelectorAll('.filter-select'));
-  const noRes   = document.getElementById('no-results');
-  const reset   = document.getElementById('reset-filters');
-
-  function applyFilters() {
-    const values = {};
-    selects.forEach(s => { values[s.dataset.filter] = s.value; });
-
-    let anyVisible = false;
-    cards.forEach(card => {
-      let show = true;
-      Object.keys(values).forEach(key => {
-        if (key === 'author') return; // handled separately (multi-value)
-        if (values[key] !== 'all' && card.dataset[key] !== values[key]) show = false;
-      });
-      if (values.author !== 'all') {
-        const cardAuthors = (card.dataset.authors || '').split(' ');
-        if (!cardAuthors.includes(values.author)) show = false;
-      }
-      card.style.display = show ? '' : 'none';
-      if (show) anyVisible = true;
-    });
-
-    noRes.style.display = anyVisible ? 'none' : '';
-  }
-
-  selects.forEach(s => s.addEventListener('change', applyFilters));
-  reset.addEventListener('click', () => {
-    selects.forEach(s => { s.value = 'all'; });
-    applyFilters();
-  });
-
-  applyFilters();
-})();
-</script>
 
 
 

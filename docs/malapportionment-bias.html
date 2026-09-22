@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Maps – REPBIAS</title>
+<title>Malapportionment Bias – REPBIAS</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -262,16 +262,24 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./origins.html"> 
+<span class="menu-text">Origins of Institutions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./malapportionment-bias.html" aria-current="page"> 
+<span class="menu-text">Malapportionment Bias</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./minority-representation.html"> 
+<span class="menu-text">Minority Representation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./decomposing-bias.html"> 
+<span class="menu-text">Decomposing Bias</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./papers.html"> 
 <span class="menu-text">Papers</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./simulations.html"> 
-<span class="menu-text">Simulations</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./maps.html" aria-current="page"> 
-<span class="menu-text">Maps</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./team.html"> 
@@ -289,19 +297,27 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#distorted-democracies" id="toc-distorted-democracies" class="nav-link active" data-scroll-target="#distorted-democracies">Distorted Democracies</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Maps</h1>
+<h1 class="title">Malapportionment Bias</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -313,26 +329,63 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="malapportionment-and-representation-bias-around-the-world" class="level2 embed-page-body">
-<h2 class="anchored" data-anchor-id="malapportionment-and-representation-bias-around-the-world">Malapportionment and representation bias around the world</h2>
-<p>From <em>Distorted Democracies</em> (Beramendi, Boix, Guinjoan &amp; Rogers): malapportionment (Samuels &amp; Snyder index) alongside the two representation-bias measures from the paper — <strong>MRB</strong> (the share of ideological bias attributable specifically to malapportionment) and <strong>TRB</strong> (total representation bias). Switch between metrics and between lower/upper chambers, search or click a country for its exact value.</p>
+<section id="distorted-democracies" class="level2 embed-page-body">
+<h2 class="anchored" data-anchor-id="distorted-democracies">Distorted Democracies</h2>
+<p>Most research on representation bias treats electoral institutions as a single bundle. <em>Distorted Democracies</em> (Beramendi, Boix, Guinjoan &amp; Rogers) instead isolates one institution — <strong>malapportionment</strong>, the mismatch between the share of seats and the share of votes or population allocated to each district — and asks how much of the total gap between voters and their parliament it actually explains, and in which ideological direction it pulls.</p>
+<p>To do this, the paper compiles a new dataset covering <strong>more than 20,000 districts and 1,100 parties across 65 democracies (1996–2020)</strong>, in both lower and upper chambers, and pools it with Spanish survey data (N=488,000) to trace how voters’ preferences translate — or fail to translate — into representation.</p>
+<section id="four-building-blocks-of-representation-bias" class="level3">
+<h3 class="anchored" data-anchor-id="four-building-blocks-of-representation-bias">Four building blocks of representation bias</h3>
+<p>REPBIAS decomposes the total gap between the ideological centre of the electorate and that of the elected legislature — <strong>Total Representation Bias (TRB)</strong> — into the distinct institutional sources that produce it:</p>
+<div class="insight-grid">
+<div class="insight-card surface-card">
+<p><span class="insight-icon">🗳️</span></p>
+<section id="mrb" class="level3">
+<h3 class="anchored" data-anchor-id="mrb">MRB</h3>
+<p><strong>Malapportionment Representation Bias.</strong> The share of the total bias caused specifically by the mismatch between seats and votes/population across districts — the focus of this page.</p>
+</section>
+</div>
+<div class="insight-card surface-card">
+<p><span class="insight-icon">📐</span></p>
+<section id="srb" class="level3">
+<h3 class="anchored" data-anchor-id="srb">SRB</h3>
+<p><strong>Seat Representation Bias.</strong> The bias jointly produced by district magnitude and the seat-allocation formula — the dominant source of distortion in most systems (see <a href="./decomposing-bias.html">Decomposing Bias</a>).</p>
+</section>
+</div>
+<div class="insight-card surface-card">
+<p><span class="insight-icon">🚧</span></p>
+<section id="thrb" class="level3">
+<h3 class="anchored" data-anchor-id="thrb">ThRB</h3>
+<p><strong>Threshold Representation Bias.</strong> The bias produced specifically by the legal electoral threshold a party must clear to win seats.</p>
+</section>
+</div>
+<div class="insight-card surface-card">
+<p><span class="insight-icon">Σ</span></p>
+<section id="trb" class="level3">
+<h3 class="anchored" data-anchor-id="trb">TRB</h3>
+<p><strong>Total Representation Bias.</strong> MRB + SRB + ThRB — the overall gap between what voters wanted and who ended up representing them.</p>
+</section>
+</div>
+</div>
+<p>SRB and ThRB are isolated through controlled simulation (see <a href="./decomposing-bias.html">Decomposing Bias</a>); the map below shows what <em>Distorted Democracies</em> measures directly and empirically, country by country: malapportionment itself, and its associated MRB and TRB.</p>
+</section>
+<section id="malapportionment-and-representation-bias-country-by-country" class="level3">
+<h3 class="anchored" data-anchor-id="malapportionment-and-representation-bias-country-by-country">Malapportionment and representation bias, country by country</h3>
+</section>
 </section>
 <div class="embed-wrap surface-card">
 <iframe src="maps/widgets/distorted_democracies_map.html" loading="lazy" title="Interactive map of malapportionment and representation bias by country" style="height:min(75vh, 720px);"></iframe>
 </div>
 <div class="embed-footnote">
-<p>Country-level averages computed from the paper’s own replication dataset (<code>MAL_countries.dta</code>), following the same aggregation used to produce Figure 1 of the paper (“Malapportionment in the World”). Grey countries have no data for the selected metric/chamber.</p>
+<p>Map shows the average across all available election years per country and chamber. Click a country for its evolution by legislature. Positive MRB/TRB = rightward bias, negative = leftward bias.</p>
 </div>
-<section id="malapportionment-and-ethnic-minority-representation" class="level2 embed-page-body">
-<h2 class="anchored" data-anchor-id="malapportionment-and-ethnic-minority-representation">Malapportionment and ethnic minority representation</h2>
-<p>From <em>Electoral institutions, malapportionment and the representation of ethnic minorities</em> (Guinjoan, Mas &amp; Roura): malapportionment alongside the presence of ethnic minorities across legislative districts (lower chamber). Countries marked with a red cross have constitutionally reserved seats for ethnic minorities.</p>
+<section id="headline-findings" class="level3 embed-page-body">
+<h3 class="anchored" data-anchor-id="headline-findings">Headline findings</h3>
+<ul>
+<li>Malapportionment is <strong>larger in upper than in lower chambers</strong> — second chambers are where the institution really bites.</li>
+<li>Contrary to the received wisdom (often shaped by cases like Spain), malapportionment is <strong>ideologically neutral in most lower-house elections</strong> worldwide: where a detectable bias exists, it favours the left about as often as the right.</li>
+<li><strong>Upper chambers show a sharper, one-directional asymmetry</strong>: a rightward bias predominates, and among the strongest cases, it is exclusively rightward.</li>
+</ul>
 </section>
-<div class="embed-wrap surface-card">
-<iframe src="maps/widgets/ethnicity_map.html" loading="lazy" title="Interactive map of malapportionment and ethnic minority representation" style="height:min(75vh, 720px);"></iframe>
-</div>
-<div class="embed-footnote">
-<p>Country-level averages computed from the paper’s own replication dataset (<code>mal_ctr_merge</code>), reproducing the logic of the paper’s Figure 1 and Figure C1 maps. Lower chamber only. Grey countries have no data.</p>
-</div>
 
 
 

@@ -97,7 +97,7 @@ format:
     <span class="paper-tag">Aggregate</span><span class="paper-tag">Cross-country</span><span class="paper-tag">Contemporary</span>
   </div>
   <p class="abstract">This paper develops a simulation-based framework to decompose ideological representation bias — the gap between the ideological center of the electorate and that of the elected legislature — into the distinct institutional sources that produce it. We simulate large numbers of synthetic polities (100 districts, up to 10,000 runs per exercise) in which four institutional parameters — malapportionment, district magnitude, the seat-allocation formula, and the legal electoral threshold — are introduced exogenously and independently of each other, and validate the decomposition against real electoral data from Spain's 2019 European Parliament election. Results show that malapportionment bias is generally modest under random territorial imbalance but can become substantial when ideologically concentrated; that seat representation bias is consistently the dominant source of distortion; and that legal thresholds generate meaningful bias only well above common European practice. We accompany the paper with REPBIAS, an open-source Shiny application for research and classroom use.</p>
-  <p class="paper-link">→ <a href="simulations.qmd">Explore the simulation app</a></p>
+  <p class="paper-link">→ <a href="decomposing-bias.qmd">Explore the simulation app</a></p>
 </div>
 
 <div class="paper-card" data-level="aggregate" data-scope="comparative" data-time="historical"

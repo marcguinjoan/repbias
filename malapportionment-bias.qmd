@@ -1,0 +1,74 @@
+---
+title: "Malapportionment Bias"
+format:
+  html:
+    page-layout: full
+---
+
+::: embed-page-body
+
+## Distorted Democracies
+
+Most research on representation bias treats electoral institutions as a single bundle. *Distorted Democracies* (Beramendi, Boix, Guinjoan &amp; Rogers) instead isolates one institution — **malapportionment**, the mismatch between the share of seats and the share of votes or population allocated to each district — and asks how much of the total gap between voters and their parliament it actually explains, and in which ideological direction it pulls.
+
+To do this, the paper compiles a new dataset covering **more than 20,000 districts and 1,100 parties across 65 democracies (1996–2020)**, in both lower and upper chambers, and pools it with Spanish survey data (N=488,000) to trace how voters' preferences translate — or fail to translate — into representation.
+
+### Four building blocks of representation bias
+
+REPBIAS decomposes the total gap between the ideological centre of the electorate and that of the elected legislature — **Total Representation Bias (TRB)** — into the distinct institutional sources that produce it:
+
+::::::: insight-grid
+::: {.insight-card .surface-card}
+<span class="insight-icon">🗳️</span>
+
+### MRB
+**Malapportionment Representation Bias.** The share of the total bias caused specifically by the mismatch between seats and votes/population across districts — the focus of this page.
+:::
+
+::: {.insight-card .surface-card}
+<span class="insight-icon">📐</span>
+
+### SRB
+**Seat Representation Bias.** The bias jointly produced by district magnitude and the seat-allocation formula — the dominant source of distortion in most systems (see [Decomposing Bias](decomposing-bias.qmd)).
+:::
+
+::: {.insight-card .surface-card}
+<span class="insight-icon">🚧</span>
+
+### ThRB
+**Threshold Representation Bias.** The bias produced specifically by the legal electoral threshold a party must clear to win seats.
+:::
+
+::: {.insight-card .surface-card}
+<span class="insight-icon">Σ</span>
+
+### TRB
+**Total Representation Bias.** MRB + SRB + ThRB — the overall gap between what voters wanted and who ended up representing them.
+:::
+:::::::
+
+SRB and ThRB are isolated through controlled simulation (see [Decomposing Bias](decomposing-bias.qmd)); the map below shows what *Distorted Democracies* measures directly and empirically, country by country: malapportionment itself, and its associated MRB and TRB.
+
+### Malapportionment and representation bias, country by country
+
+:::
+
+```{=html}
+<div class="embed-wrap surface-card">
+<iframe src="maps/widgets/distorted_democracies_map.html" loading="lazy" title="Interactive map of malapportionment and representation bias by country" style="height:min(75vh, 720px);"></iframe>
+</div>
+```
+
+::: embed-footnote
+Map shows the average across all available election years per country and chamber. Click a country for its evolution by legislature. Positive MRB/TRB = rightward bias, negative = leftward bias.
+:::
+
+::: embed-page-body
+
+### Headline findings
+
+- Malapportionment is **larger in upper than in lower chambers** — second chambers are where the institution really bites.
+- Contrary to the received wisdom (often shaped by cases like Spain), malapportionment is **ideologically neutral in most lower-house elections** worldwide: where a detectable bias exists, it favours the left about as often as the right.
+- **Upper chambers show a sharper, one-directional asymmetry**: a rightward bias predominates, and among the strongest cases, it is exclusively rightward.
+
+:::

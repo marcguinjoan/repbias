@@ -1,0 +1,62 @@
+---
+title: "Minority Representation"
+format:
+  html:
+    page-layout: full
+---
+
+::: embed-page-body
+
+## Electoral institutions, malapportionment and the representation of ethnic minorities
+
+The representation of ethnic minorities in national legislatures varies enormously: in some countries minorities are privileged through reserved seats or territorial concentration, while in others they remain systematically excluded. *Electoral institutions, malapportionment and the representation of ethnic minorities* (Guinjoan, Mas &amp; Roura) asks how malapportionment itself shapes that variation — a mechanism that had received little comparative attention, largely because of the empirical difficulty of linking electoral outcomes to the territorial distribution of ethnic groups.
+
+To close that gap, the paper introduces a novel cross-national dataset covering **more than 22,000 legislative districts in 84 countries (1996–2020)**, identifying for the first time, at the district level, the presence of ethnic minorities excluded from executive power.
+
+### Malapportionment and ethnic minority presence, country by country
+
+:::
+
+```{=html}
+<div class="embed-wrap surface-card">
+<iframe src="maps/widgets/ethnicity_map.html" loading="lazy" title="Interactive map of malapportionment and ethnic minority representation" style="height:min(75vh, 720px);"></iframe>
+</div>
+```
+
+::: embed-footnote
+Lower chamber only. Map shows the average across all available election years. Click a country for its evolution by legislature. Red crosses mark countries with constitutionally reserved seats for ethnic minorities.
+:::
+
+::: embed-page-body
+
+### Headline findings
+
+::::::: insight-grid
+::: {.insight-card .surface-card}
+<span class="insight-icon">🪑</span>
+
+### Reserved seats, higher malapportionment
+
+Countries that constitutionally reserve seats for ethnic minorities tend to exhibit **higher malapportionment** overall — the two tools go hand in hand.
+:::
+
+::: {.insight-card .surface-card}
+<span class="insight-icon">📍</span>
+
+### Minority districts are over-represented
+
+Districts where ethnic minorities are territorially concentrated are **more often over-represented** than other districts — malapportionment working, deliberately or not, in minorities' favour.
+:::
+
+::: {.insight-card .surface-card}
+<span class="insight-icon">🌍</span>
+
+### Strongest where democracy is weakest
+
+Minority over-representation is **most pronounced in open autocracies and weak democracies** — a pattern consistent with rulers using electoral rules strategically to manage ethnic cleavages rather than as a neutral by-product of geography.
+:::
+:::::::
+
+These findings connect directly to REPBIAS's work on [electoral reform in authoritarian regimes](papers.qmd): the same territorial tools that can protect minorities can also be turned into instruments of strategic control.
+
+:::

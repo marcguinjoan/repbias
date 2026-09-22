@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Simulations – REPBIAS</title>
+<title>Origins of Institutions – REPBIAS</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -262,16 +262,24 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="./origins.html" aria-current="page"> 
+<span class="menu-text">Origins of Institutions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./malapportionment-bias.html"> 
+<span class="menu-text">Malapportionment Bias</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./minority-representation.html"> 
+<span class="menu-text">Minority Representation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./decomposing-bias.html"> 
+<span class="menu-text">Decomposing Bias</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./papers.html"> 
 <span class="menu-text">Papers</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./simulations.html" aria-current="page"> 
-<span class="menu-text">Simulations</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./maps.html"> 
-<span class="menu-text">Maps</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./team.html"> 
@@ -286,22 +294,24 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Simulations</h1>
+<h1 class="title">Origins of Institutions</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -313,16 +323,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="unpacking-representation-bias-one-simulation-at-a-time" class="level2 embed-page-body">
-<h2 class="anchored" data-anchor-id="unpacking-representation-bias-one-simulation-at-a-time">Unpacking representation bias, one simulation at a time</h2>
-<p>Electoral institutions are difficult to study causally with observational data: they are jointly determined, endogenous, and rarely vary independently of one another. The REPBIAS simulation app addresses this by generating large numbers of synthetic polities in which four institutional parameters — <strong>malapportionment</strong>, <strong>district magnitude</strong>, the <strong>seat-allocation formula</strong>, and the <strong>legal electoral threshold</strong> — are introduced exogenously and independently of each other, decomposing total representation bias into the distinct share contributed by each one.</p>
-<p>Use the controls inside the app below to set your own combination of institutions and see how the distortion — and its sources — change in real time.</p>
+<div class="project-body">
+<section id="are-electoral-institutions-endogenous-to-the-elites-who-design-them" class="level2">
+<h2 class="anchored" data-anchor-id="are-electoral-institutions-endogenous-to-the-elites-who-design-them">Are electoral institutions endogenous to the elites who design them?</h2>
+<p>Electoral institutions are not handed down by nature — they are written, and redrawn, by the very political elites who compete under them. This raises an uncomfortable question for democratic theory: if incumbents control the rules of the game, do they bend those rules to protect their own advantage?</p>
+<p>To answer this, REPBIAS built one of the largest historical district-level datasets ever assembled for this purpose: <strong>more than 67,000 district-election observations across 14 countries, from 1832 to 2022</strong> — tracking every documented boundary redistribution, and matching districts across successive reforms using large language models to link historical records that could never be reconciled by hand before.</p>
+<p>Rather than asking a single question, the project breaks the “do elites protect themselves?” problem into six testable pieces: does redistricting actually reduce malapportionment? Do reforms democratize the system or entrench their makers? Do governments <em>time</em> redistricting to protect their own seats? Are the seats that disappear disproportionately opposition-held? Does redistricting improve incumbents’ over-representation? And, episode by episode, were the political intentions behind each reform actually realized?</p>
 </section>
-<div class="embed-wrap surface-card">
-<iframe src="https://mguinjoan.shinyapps.io/repbias" loading="lazy" title="REPBIAS interactive simulation app"></iframe>
+<section id="what-we-find" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-find">What we find</h2>
+<div class="insight-grid">
+<div class="insight-card surface-card">
+<p><span class="insight-icon">⚖️</span></p>
+<section id="redistricting-equalizes" class="level3">
+<h3 class="anchored" data-anchor-id="redistricting-equalizes">Redistricting equalizes</h3>
+<p>Malapportionment follows a clear “sawtooth” pattern: it drifts upward between redistributions as populations shift, then drops sharply when boundaries are redrawn. Redistricting does the equalizing job it is supposed to do.</p>
+</section>
 </div>
-<div class="embed-footnote">
-<p>The app accompanies <em>“Unpacking Representation Bias: A Simulation Approach to Electoral Institutions”</em> (Guinjoan, Carbonell &amp; Rogers) — see the <a href="./papers.html">Papers</a> page. If the app does not load above, open it directly at <a href="https://mguinjoan.shinyapps.io/repbias" target="_blank">mguinjoan.shinyapps.io/repbias</a>.</p>
+<div class="insight-card surface-card">
+<p><span class="insight-icon">🏛️</span></p>
+<section id="reforms-democratize-not-entrench" class="level3">
+<h3 class="anchored" data-anchor-id="reforms-democratize-not-entrench">Reforms democratize, not entrench</h3>
+<p>Across 27 electoral-system reform episodes in 13 countries, malapportionment falls on average after a reform — and reformers gain no measurable advantage from it. A first “strategic fools” result: elites who change the rules mostly end up loosening their own grip, not tightening it.</p>
+</section>
+</div>
+<div class="insight-card surface-card">
+<p><span class="insight-icon">⏳</span></p>
+<section id="the-one-thing-elites-do-control-timing" class="level3">
+<h3 class="anchored" data-anchor-id="the-one-thing-elites-do-control-timing">The one thing elites do control: timing</h3>
+<p>Under political control, governments delay correcting their <em>own</em> over-represented seats longer than they delay correcting the opposition’s. It is the one robust partisan fingerprint we find — and it disappears entirely once redistricting is handed to independent commissions.</p>
+</section>
+</div>
+<div class="insight-card surface-card">
+<p><span class="insight-icon">🗺️</span></p>
+<section id="abolition-tracks-demography-not-partisanship" class="level3">
+<h3 class="anchored" data-anchor-id="abolition-tracks-demography-not-partisanship">Abolition tracks demography, not partisanship</h3>
+<p>Seats that disappear in a redistricting lean slightly incumbent in both eras — but that is because over-represented (typically declining, rural) seats are disproportionately the government’s, not because redistricting targets the opposition.</p>
+</section>
+</div>
+<div class="insight-card surface-card">
+<p><span class="insight-icon">📊</span></p>
+<section id="no-systematic-distributional-payoff" class="level3">
+<h3 class="anchored" data-anchor-id="no-systematic-distributional-payoff">No systematic distributional payoff</h3>
+<p>Even among seats that survive a redistricting, incumbents gain no measurable shift in over-representation toward their own side. Strategic timing (above) does not translate into strategic outcomes.</p>
+</section>
+</div>
+<div class="insight-card surface-card">
+<p><span class="insight-icon">🔍</span></p>
+<section id="named-episodes-exceptions-prove-the-rule" class="level3">
+<h3 class="anchored" data-anchor-id="named-episodes-exceptions-prove-the-rule">Named episodes: exceptions prove the rule</h3>
+<p>Looking at 29 individually named historical reforms (the UK’s 1868 and 1885 Reform Acts, Canada’s 1917 Electoral Districts Act, and others), most that deviate from neutrality ran <em>against</em> the government of the day — with Canada 1917, historiographically notorious as a partisan gerrymander, standing out as the clear exception that matches the historical record.</p>
+</section>
+</div>
+</div>
+<p>This is now a working paper — <em>“Historical Malapportionment and Elite Redistricting Strategies”</em> — coauthored by Marc Guinjoan, Carles Boix and Pablo Beramendi. See it on the <a href="./papers.html">Papers</a> page.</p>
+</section>
+<section id="a-parallel-historical-line-caciquismo-and-electoral-coordination" class="level2">
+<h2 class="anchored" data-anchor-id="a-parallel-historical-line-caciquismo-and-electoral-coordination">A parallel historical line: caciquismo and electoral coordination</h2>
+<p>A companion historical line, developed together with the <a href="https://www.tonirodon.cat/ca/projectes/vearlydem/">VEARLYDEM</a> project, asks a related but distinct question: not whether elites <em>design</em> institutions in their favour, but how the <strong>legacy of historical clientelist control</strong> — <em>caciquismo</em> during the Spanish Restoration — shaped voters’ own capacity to coordinate their choices decades later, once competitive elections returned under the Second Republic. This paper — with Jaime Bordel, Toni Rodon, Pau Vall-Prat and Marc Guinjoan — will be featured on this page in more detail soon.</p>
+</section>
 </div>
 
 

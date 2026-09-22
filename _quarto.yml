@@ -10,12 +10,16 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: origins.qmd
+        text: Origins of Institutions
+      - href: malapportionment-bias.qmd
+        text: Malapportionment Bias
+      - href: minority-representation.qmd
+        text: Minority Representation
+      - href: decomposing-bias.qmd
+        text: Decomposing Bias
       - href: papers.qmd
         text: Papers
-      - href: simulations.qmd
-        text: Simulations
-      - href: maps.qmd
-        text: Maps
       - href: team.qmd
         text: Team
 
