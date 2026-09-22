@@ -103,8 +103,3 @@ A large-scale Voting Advice Application experiment in Spain shows personalized p
 Or browse the [full list of papers](papers.qmd), or [meet the team](team.qmd).
 
 ::::::::::
-
-:::::::::: {.funding-footer}
-<p class="grant-line">REPBIAS (PID2021-128332NA-I00) is funded by MCIN/AEI/10.13039/501100011033/FEDER, UE.</p>
-<p class="grant-line">Principal Investigator: Marc Guinjoan &middot; Universitat Autònoma de Barcelona</p>
-::::::::::

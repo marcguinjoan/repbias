@@ -22,6 +22,16 @@ website:
         text: Papers
       - href: team.qmd
         text: Team
+  page-footer:
+    center:
+      - text: |
+          <div class="site-footer-logos">
+            <p class="grant-line">REPBIAS (PID2021-128332NA-I00) is funded by MCIN/AEI/10.13039/501100011033/FEDER, UE.</p>
+            <div class="funding-logos">
+              <img src="images/logominciu.png" alt="Ministerio de Ciencia, Innovación y Universidades / Agencia Estatal de Investigación">
+              <img src="images/logouab.png" class="logo-on-chip" alt="Universitat Autònoma de Barcelona">
+            </div>
+          </div>
 
 lang: en
 

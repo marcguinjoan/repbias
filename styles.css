@@ -274,14 +274,28 @@ body.quarto-light .hero-text { color: #10202f; }
   line-height: 1.7;
 }
 
-/* ── Funding footer ──────────────────────────────────────────────────────── */
-.funding-footer {
+/* ── Site-wide footer (logos, every page) ───────────────────────────────── */
+.site-footer-logos {
   text-align: center;
-  padding: 2.5rem 1rem 4rem;
-  font-size: 0.85rem;
+  padding: 0.5rem 1rem 0.5rem;
+  font-size: 0.8rem;
   color: var(--muted-text);
-  border-top: 1px solid var(--surface-divider);
-  max-width: 900px;
-  margin: 0 auto;
 }
-.funding-footer .grant-line { margin-bottom: 0.35rem; }
+.site-footer-logos .grant-line { margin-bottom: 0.75rem; }
+.funding-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.funding-logos img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+.funding-logos img.logo-on-chip {
+  background: #ffffff;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
