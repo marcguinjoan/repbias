@@ -10,7 +10,7 @@ format:
 #quarto-margin-sidebar { margin-top: 580px; }
 .quarto-title-block { display: none; }
 </style>
-<div class="hero-section photo-hero hero-zoomed-out">
+<div class="hero-section photo-hero hero-stretch">
   <img class="hero-bg-img" src="images/malapportionment_old_sarum.jpg" alt="" loading="eager">
   <div class="hero-text">
     <span class="hero-eyebrow">MALAPPORTIONMENT BIAS</span>
