@@ -290,12 +290,12 @@ body.quarto-light .hero-text { color: #10202f; }
   flex-wrap: wrap;
 }
 .funding-logos img {
-  height: 40px;
+  height: 64px;
   width: auto;
   display: block;
 }
 .funding-logos img.logo-on-chip {
   background: #ffffff;
-  padding: 6px 12px;
-  border-radius: 6px;
+  padding: 8px 16px;
+  border-radius: 8px;
 }
