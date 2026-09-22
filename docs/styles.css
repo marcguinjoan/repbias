@@ -116,6 +116,13 @@ body.quarto-light .hero-section.photo-hero::before {
     linear-gradient(180deg, rgba(6,10,16,0.78) 0%, rgba(6,10,16,0.5) 40%, rgba(6,10,16,0.85) 100%);
 }
 .hero-section.photo-hero .hero-text { color: #f5f8fb; }
+
+/* Zoom out further than "contain" for paintings that still feel too tight */
+.hero-section.photo-hero.hero-zoomed-out { background-size: 55%; }
+
+/* Abstract/decorative graphics (not a photo with a subject to preserve) can
+   stretch to fill the banner instead of letterboxing */
+.hero-section.photo-hero.hero-stretch { background-size: cover; }
 .hero-credit {
   position: absolute;
   right: 1rem;

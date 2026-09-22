@@ -337,7 +337,7 @@ ul.task-list li input[type="checkbox"] {
 #quarto-margin-sidebar { margin-top: 580px; }
 .quarto-title-block { display: none; }
 </style>
-<div class="hero-section photo-hero" style="background-image:url('images/decomposing_bias_distortion.svg');">
+<div class="hero-section photo-hero hero-stretch" style="background-image:url('images/decomposing_bias_distortion.svg');">
   <div class="hero-text">
     <span class="hero-eyebrow">DECOMPOSING BIAS</span>
     <h1>Unpacking Representation Bias</h1>
@@ -380,6 +380,23 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+(function () {
+  function fitHeroes() {
+    document.querySelectorAll(".hero-section").forEach(function (hero) {
+      hero.style.width = "";
+      hero.style.marginLeft = "0px";
+      hero.style.marginRight = "0px";
+      var rect = hero.getBoundingClientRect();
+      var vw = document.documentElement.clientWidth;
+      hero.style.marginLeft = (-rect.left) + "px";
+      hero.style.width = vw + "px";
+    });
+  }
+  window.addEventListener("load", fitHeroes);
+  window.addEventListener("resize", fitHeroes);
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

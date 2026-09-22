@@ -9,6 +9,7 @@ project:
     - images/malapportionment_old_sarum.jpg
     - images/minority_maori_parliament.webp
     - images/decomposing_bias_distortion.svg
+    - hero-fullbleed.html
 
 website:
   title: "REPBIAS"
@@ -47,6 +48,7 @@ format:
       dark: darkly
       light: flatly
     css: styles.css
+    include-after-body: hero-fullbleed.html
     toc: true
     toc-depth: 3
     link-external-icon: true

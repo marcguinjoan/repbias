@@ -11,7 +11,7 @@ format:
 #quarto-margin-sidebar { margin-top: 580px; }
 .quarto-title-block { display: none; }
 </style>
-<div class="hero-section photo-hero" style="background-image:url('images/decomposing_bias_distortion.svg');">
+<div class="hero-section photo-hero hero-stretch" style="background-image:url('images/decomposing_bias_distortion.svg');">
   <div class="hero-text">
     <span class="hero-eyebrow">DECOMPOSING BIAS</span>
     <h1>Unpacking Representation Bias</h1>

@@ -1,0 +1,17 @@
+<script>
+(function () {
+  function fitHeroes() {
+    document.querySelectorAll(".hero-section").forEach(function (hero) {
+      hero.style.width = "";
+      hero.style.marginLeft = "0px";
+      hero.style.marginRight = "0px";
+      var rect = hero.getBoundingClientRect();
+      var vw = document.documentElement.clientWidth;
+      hero.style.marginLeft = (-rect.left) + "px";
+      hero.style.width = vw + "px";
+    });
+  }
+  window.addEventListener("load", fitHeroes);
+  window.addEventListener("resize", fitHeroes);
+})();
+</script>
