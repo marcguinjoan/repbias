@@ -20,13 +20,19 @@ toc: false
 
 Modern parliaments are rarely a mirror of the societies that elect them. The preferences of policy-makers — and the policies they enact — are seldom fully congruent with those of the citizens they represent. Political science has traditionally explained this *representation bias* through three lenses: **who gets elected** (elite selection), **who turns out to vote** (electoral participation), and **the rules of the game** (electoral institutions).
 
-REPBIAS focuses on the third lens, and in particular on one institution that has received comparatively little attention despite its consequences: **malapportionment** — the mismatch between the share of seats and the share of votes (or population) allocated to each electoral district. When districts of very different sizes elect the same number of representatives, some votes simply count more than others.
+REPBIAS focused on the third lens, and in particular on one institution that had received comparatively little attention despite its consequences: **malapportionment** — the mismatch between the share of seats and the share of votes (or population) allocated to each electoral district. When districts of very different sizes elect the same number of representatives, some votes simply count more than others.
 
-## What the project does
+::: figure-card
+![](images/home_reform_act_1832.jpg){fig-alt="1831 Ordnance Survey map of the proposed Parliamentary Borough of Birmingham, showing the boundary later used to draw up the Great Reform Act of 1832."}
 
-*The sources of representation bias: An historical political economy approach* (REPBIAS) is led by **Marc Guinjoan** (Universitat Autònoma de Barcelona) as Principal Investigator, and funded by the Spanish Ministry of Science and Innovation (PID2021-128332NA-I00).
+<p class="figure-caption">The 1831 Ordnance Survey map of the proposed Parliamentary Borough of Birmingham, surveyed by Robert K. Dawson for the boundary commission behind the Great Reform Act of 1832 — Britain's first major attempt to correct malapportionment by redrawing electoral boundaries. Source: Wikimedia Commons, public domain.</p>
+:::
 
-The project works at two levels. First, at the **aggregate level**: how much does malapportionment actually distort representation, compared with district magnitude, seat-allocation formulas, or legal thresholds? Where does it come from historically, and have elites used it to entrench their own power? What role does it play in protecting or excluding ethnic and national minorities? Second, once these aggregate distortions are mapped out, the project moves to the **individual level**: how do citizens perceive and evaluate the electoral rules that shape their representation, and does the information they receive actually change how they vote?
+## What the project did
+
+*The sources of representation bias: An historical political economy approach* (REPBIAS, PID2021-128332NA-I00) ran from **September 2022 to July 2026**, led by **Marc Guinjoan** (Universitat Autònoma de Barcelona) as Principal Investigator, and funded by the Spanish Ministry of Science and Innovation.
+
+The project worked at two levels. First, at the **aggregate level**: how much does malapportionment actually distort representation, compared with district magnitude, seat-allocation formulas, or legal thresholds? Where does it come from historically, and have elites used it to entrench their own power? What role does it play in protecting or excluding ethnic and national minorities? Second, once these aggregate distortions were mapped out, the project moved to the **individual level**: how do citizens perceive and evaluate the electoral rules that shape their representation, and does the information they receive actually change how they vote?
 
 ## Main findings
 

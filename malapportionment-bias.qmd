@@ -11,11 +11,17 @@ format:
 
 Most research on representation bias treats electoral institutions as a single bundle. *Distorted Democracies* (Beramendi, Boix, Guinjoan &amp; Rogers) instead isolates one institution — **malapportionment**, the mismatch between the share of seats and the share of votes or population allocated to each district — and asks how much of the total gap between voters and their parliament it actually explains, and in which ideological direction it pulls.
 
-To do this, the paper compiles a new dataset covering **more than 20,000 districts and 1,100 parties across 65 democracies (1996–2020)**, in both lower and upper chambers, and pools it with Spanish survey data (N=488,000) to trace how voters' preferences translate — or fail to translate — into representation.
+To do this, the paper compiled a new dataset covering **more than 20,000 districts and 1,100 parties across 65 democracies (1996–2020)**, in both lower and upper chambers, and pooled it with Spanish survey data (N=488,000) to trace how voters' preferences translate — or fail to translate — into representation.
+
+::: figure-card
+![](images/malapportionment_old_sarum.jpg){fig-alt="Old Sarum by John Constable, 1829 — a painting of an empty Wiltshire hill."}
+
+<p class="figure-caption"><em>Old Sarum</em>, painted by John Constable in 1829. This uninhabited hill in Wiltshire was, until the 1832 Reform Act abolished it, England's most notorious "rotten borough" — an empty seat that nonetheless elected two Members of Parliament, malapportionment in its most extreme historical form. Source: Wikimedia Commons, public domain.</p>
+:::
 
 ### Four building blocks of representation bias
 
-REPBIAS decomposes the total gap between the ideological centre of the electorate and that of the elected legislature — **Total Representation Bias (TRB)** — into the distinct institutional sources that produce it:
+REPBIAS decomposed the total gap between the ideological centre of the electorate and that of the elected legislature — **Total Representation Bias (TRB)** — into the distinct institutional sources that produce it:
 
 ::::::: insight-grid
 ::: {.insight-card .surface-card}
@@ -47,7 +53,7 @@ REPBIAS decomposes the total gap between the ideological centre of the electorat
 :::
 :::::::
 
-SRB and ThRB are isolated through controlled simulation (see [Decomposing Bias](decomposing-bias.qmd)); the map below shows what *Distorted Democracies* measures directly and empirically, country by country: malapportionment itself, and its associated MRB and TRB.
+SRB and ThRB were isolated through controlled simulation (see [Decomposing Bias](decomposing-bias.qmd)); the map below shows what *Distorted Democracies* measured directly and empirically, country by country: malapportionment itself, and its associated MRB and TRB.
 
 ### Malapportionment and representation bias, country by country
 
