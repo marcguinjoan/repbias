@@ -95,19 +95,31 @@ body.quarto-light .hero-text { color: #10202f; }
   font-size: 0.78rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+  z-index: 2;
 }
 
 /* ── Hero with a photo background (all thematic pages) ──────────────────── */
+/* Rendered as a real <img> (not a CSS background-image), since
+   background-size:contain/cover on some Chromium builds shows a hairline
+   repeated seam at the image edge even with background-repeat:no-repeat. */
 .hero-section.photo-hero {
   background-color: #05080c;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.hero-bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  z-index: 0;
 }
 .hero-section.photo-hero::before {
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 1;
   background:
     linear-gradient(180deg, rgba(6,10,16,0.72) 0%, rgba(6,10,16,0.42) 40%, rgba(6,10,16,0.82) 100%);
 }
@@ -115,14 +127,14 @@ body.quarto-light .hero-section.photo-hero::before {
   background:
     linear-gradient(180deg, rgba(6,10,16,0.78) 0%, rgba(6,10,16,0.5) 40%, rgba(6,10,16,0.85) 100%);
 }
-.hero-section.photo-hero .hero-text { color: #f5f8fb; }
+.hero-section.photo-hero .hero-text { color: #f5f8fb; position: relative; z-index: 2; }
 
 /* Zoom out further than "contain" for paintings that still feel too tight */
-.hero-section.photo-hero.hero-zoomed-out { background-size: 55%; }
+.hero-zoomed-out .hero-bg-img { width: 55%; height: 55%; left: 22.5%; top: 22.5%; }
 
 /* Abstract/decorative graphics (not a photo with a subject to preserve) can
    stretch to fill the banner instead of letterboxing */
-.hero-section.photo-hero.hero-stretch { background-size: cover; }
+.hero-stretch .hero-bg-img { object-fit: cover; }
 .hero-credit {
   position: absolute;
   right: 1rem;
@@ -132,6 +144,7 @@ body.quarto-light .hero-section.photo-hero::before {
   line-height: 1.4;
   color: rgba(255,255,255,0.75);
   text-align: right;
+  z-index: 2;
 }
 @media (max-width: 640px) {
   .hero-credit { max-width: 92%; left: 1rem; right: 1rem; text-align: left; bottom: 0.4rem; }

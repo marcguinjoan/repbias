@@ -11,7 +11,17 @@
       hero.style.width = vw + "px";
     });
   }
-  window.addEventListener("load", fitHeroes);
-  window.addEventListener("resize", fitHeroes);
+  window.addEventListener("load", function () {
+    fitHeroes();
+    // catch late reflows (web fonts, iframes) that can shift layout
+    // slightly after the load event fires
+    setTimeout(fitHeroes, 300);
+    setTimeout(fitHeroes, 1200);
+  });
+  var resizeTimer;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(fitHeroes, 150);
+  });
 })();
 </script>

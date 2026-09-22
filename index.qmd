@@ -3,7 +3,8 @@ title: ""
 ---
 
 ```{=html}
-<div class="hero-section photo-hero" style="background-image:url('images/home_reform_act_1832.jpg');">
+<div class="hero-section photo-hero">
+  <img class="hero-bg-img" src="images/home_reform_act_1832.jpg" alt="" loading="eager">
   <div class="hero-text">
     <span class="hero-eyebrow">REPBIAS &middot; PID2021-128332NA-I00</span>
     <h1>The Sources of Representation Bias</h1>

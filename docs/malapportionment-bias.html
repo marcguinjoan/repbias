@@ -338,7 +338,8 @@ ul.task-list li input[type="checkbox"] {
 #quarto-margin-sidebar { margin-top: 580px; }
 .quarto-title-block { display: none; }
 </style>
-<div class="hero-section photo-hero hero-zoomed-out" style="background-image:url('images/malapportionment_old_sarum.jpg');">
+<div class="hero-section photo-hero hero-zoomed-out">
+  <img class="hero-bg-img" src="images/malapportionment_old_sarum.jpg" alt="" loading="eager">
   <div class="hero-text">
     <span class="hero-eyebrow">MALAPPORTIONMENT BIAS</span>
     <h1>Distorted Democracies</h1>
@@ -421,8 +422,18 @@ ul.task-list li input[type="checkbox"] {
       hero.style.width = vw + "px";
     });
   }
-  window.addEventListener("load", fitHeroes);
-  window.addEventListener("resize", fitHeroes);
+  window.addEventListener("load", function () {
+    fitHeroes();
+    // catch late reflows (web fonts, iframes) that can shift layout
+    // slightly after the load event fires
+    setTimeout(fitHeroes, 300);
+    setTimeout(fitHeroes, 1200);
+  });
+  var resizeTimer;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(fitHeroes, 150);
+  });
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

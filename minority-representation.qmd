@@ -10,7 +10,8 @@ format:
 #quarto-margin-sidebar { margin-top: 580px; }
 .quarto-title-block { display: none; }
 </style>
-<div class="hero-section photo-hero" style="background-image:url('images/minority_maori_parliament.webp');">
+<div class="hero-section photo-hero">
+  <img class="hero-bg-img" src="images/minority_maori_parliament.webp" alt="" loading="eager">
   <div class="hero-text">
     <span class="hero-eyebrow">MINORITY REPRESENTATION</span>
     <h1>Protecting — or Excluding — Minorities</h1>

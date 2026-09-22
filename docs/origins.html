@@ -331,7 +331,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="hero-section photo-hero" style="background-image:url('images/origins_parliament.jpg');">
+<div class="hero-section photo-hero">
+  <img class="hero-bg-img" src="images/origins_parliament.jpg" alt="" loading="eager">
   <div class="hero-text">
     <span class="hero-eyebrow">ORIGINS OF INSTITUTIONS</span>
     <h1>Are Electoral Institutions Endogenous?</h1>
@@ -424,8 +425,18 @@ Redistricting eras by country, 1832–2022. Red = political control, blue = inde
       hero.style.width = vw + "px";
     });
   }
-  window.addEventListener("load", fitHeroes);
-  window.addEventListener("resize", fitHeroes);
+  window.addEventListener("load", function () {
+    fitHeroes();
+    // catch late reflows (web fonts, iframes) that can shift layout
+    // slightly after the load event fires
+    setTimeout(fitHeroes, 300);
+    setTimeout(fitHeroes, 1200);
+  });
+  var resizeTimer;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(fitHeroes, 150);
+  });
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

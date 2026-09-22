@@ -7,7 +7,8 @@ format:
 ---
 
 ```{=html}
-<div class="hero-section photo-hero" style="background-image:url('images/origins_parliament.jpg');">
+<div class="hero-section photo-hero">
+  <img class="hero-bg-img" src="images/origins_parliament.jpg" alt="" loading="eager">
   <div class="hero-text">
     <span class="hero-eyebrow">ORIGINS OF INSTITUTIONS</span>
     <h1>Are Electoral Institutions Endogenous?</h1>
