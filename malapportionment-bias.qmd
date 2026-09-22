@@ -9,7 +9,7 @@ format:
 <style>
 #quarto-margin-sidebar { margin-top: 580px; }
 </style>
-<div class="hero-section photo-hero" style="background-image:url('images/malapportionment_old_sarum.jpg'); background-position:center 78%;">
+<div class="hero-section photo-hero" style="background-image:url('images/malapportionment_old_sarum.jpg');">
   <div class="hero-text">
     <span class="hero-eyebrow">MALAPPORTIONMENT BIAS</span>
     <h1>Distorted Democracies</h1>

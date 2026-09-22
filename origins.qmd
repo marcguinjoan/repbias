@@ -3,7 +3,7 @@ title: "Origins of Institutions"
 ---
 
 ```{=html}
-<div class="hero-section photo-hero" style="background-image:url('images/origins_parliament.jpg'); background-position:center 65%;">
+<div class="hero-section photo-hero" style="background-image:url('images/origins_parliament.jpg');">
   <div class="hero-text">
     <span class="hero-eyebrow">ORIGINS OF INSTITUTIONS</span>
     <h1>Are Electoral Institutions Endogenous?</h1>

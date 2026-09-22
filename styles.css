@@ -39,8 +39,9 @@ body.quarto-light {
   justify-content: center;
   position: relative;
   margin-top: -64px;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  width: auto;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 
 body.quarto-light .hero-section {
@@ -98,7 +99,8 @@ body.quarto-light .hero-text { color: #10202f; }
 
 /* ── Hero with a photo background (all thematic pages) ──────────────────── */
 .hero-section.photo-hero {
-  background-size: cover;
+  background-color: #05080c;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
