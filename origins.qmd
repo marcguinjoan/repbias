@@ -7,8 +7,11 @@ format:
 ---
 
 ```{=html}
-<div class="hero-section photo-hero">
-  <img class="hero-bg-img" src="images/origins_parliament.jpg" alt="" loading="eager">
+<style>
+#quarto-margin-sidebar { margin-top: 580px; }
+.quarto-title-block { display: none; }
+</style>
+<div class="hero-section photo-hero" style="background-image:url('images/origins_parliament.jpg');">
   <div class="hero-text">
     <span class="hero-eyebrow">ORIGINS OF INSTITUTIONS</span>
     <h1>Are Electoral Institutions Endogenous?</h1>
@@ -17,7 +20,6 @@ format:
   <div class="hero-credit"><em>The House of Commons, 1833</em> ("The Meeting of the First Reformed Parliament"), by Sir George Hayter — the first sitting of the Commons after the 1832 Reform Act. National Portrait Gallery, London, via Wikimedia Commons (public domain).</div>
   <div class="scroll-hint">&darr; scroll to explore</div>
 </div>
-<style>.quarto-title-block { display: none; }</style>
 ```
 
 ::: project-body

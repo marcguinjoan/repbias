@@ -104,6 +104,9 @@ body.quarto-light .hero-text { color: #10202f; }
    repeated seam at the image edge even with background-repeat:no-repeat. */
 .hero-section.photo-hero {
   background-color: #05080c;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 .hero-bg-img {
@@ -129,8 +132,8 @@ body.quarto-light .hero-section.photo-hero::before {
 }
 .hero-section.photo-hero .hero-text { color: #f5f8fb; position: relative; z-index: 2; }
 
-/* Zoom out further than "contain" for paintings that still feel too tight */
-.hero-zoomed-out .hero-bg-img { width: 55%; height: 55%; left: 22.5%; top: 22.5%; }
+/* Zoom out a little further than plain "contain" for paintings that still feel too tight */
+.hero-zoomed-out .hero-bg-img { width: 82%; height: 82%; left: 9%; top: 9%; }
 
 /* Abstract/decorative graphics (not a photo with a subject to preserve) can
    stretch to fill the banner instead of letterboxing */
