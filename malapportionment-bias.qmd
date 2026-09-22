@@ -21,28 +21,28 @@ REPBIAS decomposes the total gap between the ideological centre of the electorat
 ::: {.insight-card .surface-card}
 <span class="insight-icon">🗳️</span>
 
-### MRB
+#### MRB
 **Malapportionment Representation Bias.** The share of the total bias caused specifically by the mismatch between seats and votes/population across districts — the focus of this page.
 :::
 
 ::: {.insight-card .surface-card}
 <span class="insight-icon">📐</span>
 
-### SRB
+#### SRB
 **Seat Representation Bias.** The bias jointly produced by district magnitude and the seat-allocation formula — the dominant source of distortion in most systems (see [Decomposing Bias](decomposing-bias.qmd)).
 :::
 
 ::: {.insight-card .surface-card}
 <span class="insight-icon">🚧</span>
 
-### ThRB
+#### ThRB
 **Threshold Representation Bias.** The bias produced specifically by the legal electoral threshold a party must clear to win seats.
 :::
 
 ::: {.insight-card .surface-card}
 <span class="insight-icon">Σ</span>
 
-### TRB
+#### TRB
 **Total Representation Bias.** MRB + SRB + ThRB — the overall gap between what voters wanted and who ended up representing them.
 :::
 :::::::

@@ -277,10 +277,20 @@ window.addEventListener('resize', function() {
 });
 ")))
 
+fill_css <- tags$style(HTML("
+  html, body { height: 100%; margin: 0; }
+  .repbias-map-page { display: flex; flex-direction: column; height: 100vh; font-family: system-ui, sans-serif; }
+  .repbias-map-controls { flex: 0 0 auto; }
+  .repbias-map-area { flex: 1 1 auto; min-height: 0; position: relative; }
+  .repbias-map-area .repbias-geo-plot { width: 100% !important; height: 100% !important; }
+  .repbias-map-area .js-plotly-plot, .repbias-map-area .plot-container { width: 100% !important; height: 100% !important; }
+"))
+
 page <- tagList(
-  tags$div(style = "font-family: system-ui, sans-serif; position:relative;",
-    controls, caption,
-    tags$div(style = "position:relative;", map_widget, popup, loading_overlay),
+  fill_css,
+  tags$div(class = "repbias-map-page",
+    tags$div(class = "repbias-map-controls", controls, caption),
+    tags$div(class = "repbias-map-area", map_widget, popup, loading_overlay),
     script
   )
 )

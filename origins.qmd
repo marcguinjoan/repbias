@@ -10,6 +10,14 @@ Electoral institutions are not handed down by nature — they are written, and r
 
 To answer this, REPBIAS built one of the largest historical district-level datasets ever assembled for this purpose: **more than 67,000 district-election observations across 14 countries, from 1832 to 2022** — tracking every documented boundary redistribution, and matching districts across successive reforms using large language models to link historical records that could never be reconciled by hand before.
 
+A key design feature runs through the whole analysis: **who draws the map**. All four Commonwealth single-member-district countries moved, over the twentieth century, from redistricting under direct **political control** to **independent commissions** — a natural before/after comparison the project exploits throughout.
+
+::: figure-card
+![](images/redistricting_eras.png){fig-alt="Timeline showing redistricting eras by country, coloured by whether boundaries were drawn under political control or by an independent commission, for the UK, Canada, Australia, New Zealand, Denmark and Norway, 1832–2022."}
+
+<p class="figure-caption">Redistricting eras by country, 1832–2022. Red = political control, blue = independent commission. All four Commonwealth SMD countries eventually shifted to independent commissions (UK 1950, New Zealand 1956, Canada 1966, Australia 1984).</p>
+:::
+
 Rather than asking a single question, the project breaks the "do elites protect themselves?" problem into six testable pieces: does redistricting actually reduce malapportionment? Do reforms democratize the system or entrench their makers? Do governments *time* redistricting to protect their own seats? Are the seats that disappear disproportionately opposition-held? Does redistricting improve incumbents' over-representation? And, episode by episode, were the political intentions behind each reform actually realized?
 
 ## What we find
@@ -18,7 +26,7 @@ Rather than asking a single question, the project breaks the "do elites protect 
 ::: {.insight-card .surface-card}
 <span class="insight-icon">⚖️</span>
 
-### Redistricting equalizes
+#### Redistricting equalizes
 
 Malapportionment follows a clear "sawtooth" pattern: it drifts upward between redistributions as populations shift, then drops sharply when boundaries are redrawn. Redistricting does the equalizing job it is supposed to do.
 :::
@@ -26,7 +34,7 @@ Malapportionment follows a clear "sawtooth" pattern: it drifts upward between re
 ::: {.insight-card .surface-card}
 <span class="insight-icon">🏛️</span>
 
-### Reforms democratize, not entrench
+#### Reforms democratize, not entrench
 
 Across 27 electoral-system reform episodes in 13 countries, malapportionment falls on average after a reform — and reformers gain no measurable advantage from it. A first "strategic fools" result: elites who change the rules mostly end up loosening their own grip, not tightening it.
 :::
@@ -34,7 +42,7 @@ Across 27 electoral-system reform episodes in 13 countries, malapportionment fal
 ::: {.insight-card .surface-card}
 <span class="insight-icon">⏳</span>
 
-### The one thing elites do control: timing
+#### The one thing elites do control: timing
 
 Under political control, governments delay correcting their *own* over-represented seats longer than they delay correcting the opposition's. It is the one robust partisan fingerprint we find — and it disappears entirely once redistricting is handed to independent commissions.
 :::
@@ -42,7 +50,7 @@ Under political control, governments delay correcting their *own* over-represent
 ::: {.insight-card .surface-card}
 <span class="insight-icon">🗺️</span>
 
-### Abolition tracks demography, not partisanship
+#### Abolition tracks demography, not partisanship
 
 Seats that disappear in a redistricting lean slightly incumbent in both eras — but that is because over-represented (typically declining, rural) seats are disproportionately the government's, not because redistricting targets the opposition.
 :::
@@ -50,7 +58,7 @@ Seats that disappear in a redistricting lean slightly incumbent in both eras —
 ::: {.insight-card .surface-card}
 <span class="insight-icon">📊</span>
 
-### No systematic distributional payoff
+#### No systematic distributional payoff
 
 Even among seats that survive a redistricting, incumbents gain no measurable shift in over-representation toward their own side. Strategic timing (above) does not translate into strategic outcomes.
 :::
@@ -58,7 +66,7 @@ Even among seats that survive a redistricting, incumbents gain no measurable shi
 ::: {.insight-card .surface-card}
 <span class="insight-icon">🔍</span>
 
-### Named episodes: exceptions prove the rule
+#### Named episodes: exceptions prove the rule
 
 Looking at 29 individually named historical reforms (the UK's 1868 and 1885 Reform Acts, Canada's 1917 Electoral Districts Act, and others), most that deviate from neutrality ran *against* the government of the day — with Canada 1917, historiographically notorious as a partisan gerrymander, standing out as the clear exception that matches the historical record.
 :::

@@ -35,7 +35,7 @@ Lower chamber only. Map shows the average across all available election years. C
 ::: {.insight-card .surface-card}
 <span class="insight-icon">🪑</span>
 
-### Reserved seats, higher malapportionment
+#### Reserved seats, higher malapportionment
 
 Countries that constitutionally reserve seats for ethnic minorities tend to exhibit **higher malapportionment** overall — the two tools go hand in hand.
 :::
@@ -43,7 +43,7 @@ Countries that constitutionally reserve seats for ethnic minorities tend to exhi
 ::: {.insight-card .surface-card}
 <span class="insight-icon">📍</span>
 
-### Minority districts are over-represented
+#### Minority districts are over-represented
 
 Districts where ethnic minorities are territorially concentrated are **more often over-represented** than other districts — malapportionment working, deliberately or not, in minorities' favour.
 :::
@@ -51,7 +51,7 @@ Districts where ethnic minorities are territorially concentrated are **more ofte
 ::: {.insight-card .surface-card}
 <span class="insight-icon">🌍</span>
 
-### Strongest where democracy is weakest
+#### Strongest where democracy is weakest
 
 Minority over-representation is **most pronounced in open autocracies and weak democracies** — a pattern consistent with rulers using electoral rules strategically to manage ethnic cleavages rather than as a neutral by-product of geography.
 :::

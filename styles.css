@@ -133,7 +133,7 @@ body.quarto-light .hero-text { color: #10202f; }
   margin-bottom: 0.5rem;
   display: block;
 }
-.insight-card h3 {
+.insight-card h3, .insight-card h4 {
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -272,6 +272,22 @@ body.quarto-light .hero-text { color: #10202f; }
   font-size: 0.8rem;
   color: var(--muted-text);
   line-height: 1.7;
+}
+
+/* ── Static figure card (e.g. redistricting eras timeline) ─────────────── */
+.figure-card {
+  background: #ffffff;
+  border: 1px solid var(--surface-border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem 0.5rem;
+  margin: 1.5rem 0;
+}
+.figure-card img { display: block; width: 100%; height: auto; }
+.figure-card .figure-caption {
+  font-size: 0.8rem;
+  color: #555;
+  text-align: center;
+  padding: 0.6rem 0.5rem 0.2rem;
 }
 
 /* ── Site-wide footer (logos, every page) ───────────────────────────────── */
