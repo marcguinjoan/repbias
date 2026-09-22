@@ -6,17 +6,21 @@ format:
     page-layout: full
 ---
 
+```{=html}
+<div class="hero-section photo-hero" style="background-image:url('images/decomposing_bias_distortion.svg');">
+  <div class="hero-text">
+    <span class="hero-eyebrow">DECOMPOSING BIAS</span>
+    <h1>Unpacking Representation Bias</h1>
+    <p>Simulating synthetic polities to isolate each institutional source of distortion — one at a time.</p>
+  </div>
+  <div class="hero-credit">A regular grid, increasingly warped: a visual metaphor for how a single latent distortion stretches and bends once decomposed into its separate institutional sources (MRB, SRB, ThRB).</div>
+  <div class="scroll-hint">&darr; scroll to explore</div>
+</div>
+```
+
 ::: embed-page-body
 
-## Unpacking representation bias, one simulation at a time
-
 Electoral institutions are hard to study causally with real-world data: malapportionment, district magnitude, the seat-allocation formula and the legal threshold are jointly determined, endogenous, and rarely vary independently of one another in any single country. *Unpacking Representation Bias: A Simulation Approach to Electoral Institutions* (Guinjoan, Carbonell &amp; Rogers) sidestepped this problem by simulating large numbers of synthetic polities — up to 10,000 runs per exercise — in which each institutional parameter was introduced **exogenously and independently** of the others, validating the resulting decomposition against real data from Spain's 2019 European Parliament election.
-
-::: distortion-card
-![](images/decomposing_bias_distortion.svg){fig-alt="Abstract illustration of a regular grid becoming progressively warped from left to right, symbolising statistical distortion."}
-
-<p class="figure-caption">A regular grid, increasingly warped: a visual metaphor for how a single latent distortion — representation bias — stretches and bends once decomposed into its separate institutional sources (MRB, SRB, ThRB).</p>
-:::
 
 This is where **MRB**, **SRB**, **ThRB** and **TRB** — introduced on the [Malapportionment Bias](malapportionment-bias.qmd) page — were actually separated out:
 

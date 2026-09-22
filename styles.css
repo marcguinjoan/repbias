@@ -96,6 +96,38 @@ body.quarto-light .hero-text { color: #10202f; }
   text-transform: uppercase;
 }
 
+/* ── Hero with a photo background (all thematic pages) ──────────────────── */
+.hero-section.photo-hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-section.photo-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(6,10,16,0.72) 0%, rgba(6,10,16,0.42) 40%, rgba(6,10,16,0.82) 100%);
+}
+body.quarto-light .hero-section.photo-hero::before {
+  background:
+    linear-gradient(180deg, rgba(6,10,16,0.78) 0%, rgba(6,10,16,0.5) 40%, rgba(6,10,16,0.85) 100%);
+}
+.hero-section.photo-hero .hero-text { color: #f5f8fb; }
+.hero-credit {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.6rem;
+  max-width: 46%;
+  font-size: 0.68rem;
+  line-height: 1.4;
+  color: rgba(255,255,255,0.75);
+  text-align: right;
+}
+@media (max-width: 640px) {
+  .hero-credit { max-width: 92%; left: 1rem; right: 1rem; text-align: left; bottom: 0.4rem; }
+}
+
 /* ── Body / prose container ─────────────────────────────────────────────── */
 .project-body {
   max-width: 900px;

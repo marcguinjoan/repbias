@@ -321,16 +321,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="embed-page-body">
-<section id="unpacking-representation-bias-one-simulation-at-a-time" class="level2">
-<h2 class="anchored" data-anchor-id="unpacking-representation-bias-one-simulation-at-a-time">Unpacking representation bias, one simulation at a time</h2>
-<p>Electoral institutions are hard to study causally with real-world data: malapportionment, district magnitude, the seat-allocation formula and the legal threshold are jointly determined, endogenous, and rarely vary independently of one another in any single country. <em>Unpacking Representation Bias: A Simulation Approach to Electoral Institutions</em> (Guinjoan, Carbonell &amp; Rogers) sidestepped this problem by simulating large numbers of synthetic polities — up to 10,000 runs per exercise — in which each institutional parameter was introduced <strong>exogenously and independently</strong> of the others, validating the resulting decomposition against real data from Spain’s 2019 European Parliament election.</p>
-<div class="distortion-card">
-<p><img src="images/decomposing_bias_distortion.svg" class="img-fluid" alt="Abstract illustration of a regular grid becoming progressively warped from left to right, symbolising statistical distortion."></p>
-<p class="figure-caption">
-A regular grid, increasingly warped: a visual metaphor for how a single latent distortion — representation bias — stretches and bends once decomposed into its separate institutional sources (MRB, SRB, ThRB).
-</p>
+<div class="hero-section photo-hero" style="background-image:url('images/decomposing_bias_distortion.svg');">
+  <div class="hero-text">
+    <span class="hero-eyebrow">DECOMPOSING BIAS</span>
+    <h1>Unpacking Representation Bias</h1>
+    <p>Simulating synthetic polities to isolate each institutional source of distortion — one at a time.</p>
+  </div>
+  <div class="hero-credit">A regular grid, increasingly warped: a visual metaphor for how a single latent distortion stretches and bends once decomposed into its separate institutional sources (MRB, SRB, ThRB).</div>
+  <div class="scroll-hint">↓ scroll to explore</div>
 </div>
+<div class="embed-page-body">
+<p>Electoral institutions are hard to study causally with real-world data: malapportionment, district magnitude, the seat-allocation formula and the legal threshold are jointly determined, endogenous, and rarely vary independently of one another in any single country. <em>Unpacking Representation Bias: A Simulation Approach to Electoral Institutions</em> (Guinjoan, Carbonell &amp; Rogers) sidestepped this problem by simulating large numbers of synthetic polities — up to 10,000 runs per exercise — in which each institutional parameter was introduced <strong>exogenously and independently</strong> of the others, validating the resulting decomposition against real data from Spain’s 2019 European Parliament election.</p>
 <p>This is where <strong>MRB</strong>, <strong>SRB</strong>, <strong>ThRB</strong> and <strong>TRB</strong> — introduced on the <a href="./malapportionment-bias.html">Malapportionment Bias</a> page — were actually separated out:</p>
 <ul>
 <li><strong>Malapportionment</strong> generates the <strong>MRB</strong>.</li>
@@ -346,7 +347,6 @@ A regular grid, increasingly warped: a visual metaphor for how a single latent d
 <li>Legal thresholds generate <strong>meaningful bias only at levels well above common European practice</strong>.</li>
 <li>All three components <strong>scale with party-system polarization and fragmentation</strong>.</li>
 </ul>
-</section>
 </section>
 <section id="try-it-yourself" class="level2">
 <h2 class="anchored" data-anchor-id="try-it-yourself">Try it yourself</h2>

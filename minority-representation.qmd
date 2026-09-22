@@ -5,19 +5,23 @@ format:
     page-layout: full
 ---
 
-::: embed-page-body
+```{=html}
+<div class="hero-section photo-hero" style="background-image:url('images/minority_mete_kingi.jpg'); background-position:center 20%;">
+  <div class="hero-text">
+    <span class="hero-eyebrow">MINORITY REPRESENTATION</span>
+    <h1>Protecting — or Excluding — Minorities</h1>
+    <p>How malapportionment shapes the representation of ethnic minorities across 84 countries.</p>
+  </div>
+  <div class="hero-credit">Mete Kīngi Paetahi, photographed c. 1869, one of the first four Māori MPs elected to New Zealand's reserved Māori seats, created in 1867. National Library of New Zealand, via Wikimedia Commons (public domain in NZ).</div>
+  <div class="scroll-hint">&darr; scroll to explore</div>
+</div>
+```
 
-## Electoral institutions, malapportionment and the representation of ethnic minorities
+::: embed-page-body
 
 The representation of ethnic minorities in national legislatures varies enormously: in some countries minorities are privileged through reserved seats or territorial concentration, while in others they remain systematically excluded. *Electoral institutions, malapportionment and the representation of ethnic minorities* (Guinjoan, Mas &amp; Roura) asked how malapportionment itself shapes that variation — a mechanism that had received little comparative attention, largely because of the empirical difficulty of linking electoral outcomes to the territorial distribution of ethnic groups.
 
 To close that gap, the paper introduced a novel cross-national dataset covering **more than 22,000 legislative districts in 84 countries (1996–2020)**, identifying for the first time, at the district level, the presence of ethnic minorities excluded from executive power.
-
-::: figure-card
-![](images/minority_mete_kingi.jpg){fig-alt="Formal seated portrait photograph, circa 1869, of Mete Kīngi Paetahi, wearing a military-style uniform and holding a patu."}
-
-<p class="figure-caption">Mete Kīngi Paetahi, photographed around 1869, one of the first four Māori Members of Parliament elected to New Zealand's reserved Māori seats, created in 1867. The Māori seats remain one of the world's longest-running examples of ethnic minority representation guaranteed through electoral design. Source: National Library of New Zealand, via Wikimedia Commons (public domain in New Zealand).</p>
-:::
 
 ### Malapportionment and ethnic minority presence, country by country
 

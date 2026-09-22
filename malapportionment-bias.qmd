@@ -5,19 +5,23 @@ format:
     page-layout: full
 ---
 
-::: embed-page-body
+```{=html}
+<div class="hero-section photo-hero" style="background-image:url('images/malapportionment_old_sarum.jpg');">
+  <div class="hero-text">
+    <span class="hero-eyebrow">MALAPPORTIONMENT BIAS</span>
+    <h1>Distorted Democracies</h1>
+    <p>How much malapportionment alone distorts representation across 65 democracies — and in which ideological direction it pulls.</p>
+  </div>
+  <div class="hero-credit"><em>Old Sarum</em>, painted by John Constable, 1829. This uninhabited Wiltshire hill was England's most notorious "rotten borough" — empty, yet it elected two MPs until the 1832 Reform Act. Wikimedia Commons, public domain.</div>
+  <div class="scroll-hint">&darr; scroll to explore</div>
+</div>
+```
 
-## Distorted Democracies
+::: embed-page-body
 
 Most research on representation bias treats electoral institutions as a single bundle. *Distorted Democracies* (Beramendi, Boix, Guinjoan &amp; Rogers) instead isolates one institution — **malapportionment**, the mismatch between the share of seats and the share of votes or population allocated to each district — and asks how much of the total gap between voters and their parliament it actually explains, and in which ideological direction it pulls.
 
 To do this, the paper compiled a new dataset covering **more than 20,000 districts and 1,100 parties across 65 democracies (1996–2020)**, in both lower and upper chambers, and pooled it with Spanish survey data (N=488,000) to trace how voters' preferences translate — or fail to translate — into representation.
-
-::: figure-card
-![](images/malapportionment_old_sarum.jpg){fig-alt="Old Sarum by John Constable, 1829 — a painting of an empty Wiltshire hill."}
-
-<p class="figure-caption"><em>Old Sarum</em>, painted by John Constable in 1829. This uninhabited hill in Wiltshire was, until the 1832 Reform Act abolished it, England's most notorious "rotten borough" — an empty seat that nonetheless elected two Members of Parliament, malapportionment in its most extreme historical form. Source: Wikimedia Commons, public domain.</p>
-:::
 
 ### Four building blocks of representation bias
 
