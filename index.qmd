@@ -30,7 +30,7 @@ REPBIAS focused on the third lens, and in particular on one institution that had
 
 ## What the project did
 
-*The sources of representation bias: An historical political economy approach* (REPBIAS, PID2021-128332NA-I00) ran from **September 2022 to July 2026**, led by **Marc Guinjoan** (Universitat Autònoma de Barcelona) as Principal Investigator, and funded by the Spanish Ministry of Science and Innovation.
+*The sources of representation bias: An historical political economy approach* (REPBIAS, PID2021-128332NA-I00) ran from **September 2022 to July 2026**, led by [**Marc Guinjoan**](http://marcguinjoan.cat) (Universitat Autònoma de Barcelona) as Principal Investigator, and funded by the Spanish Ministry of Science and Innovation.
 
 The project worked at two levels. First, at the **aggregate level**: how much does malapportionment actually distort representation, compared with district magnitude, seat-allocation formulas, or legal thresholds? Where does it come from historically, and have elites used it to entrench their own power? What role does it play in protecting or excluding ethnic and national minorities? Second, once these aggregate distortions were mapped out, the project moved to the **individual level**: how do citizens perceive and evaluate the electoral rules that shape their representation, and does the information they receive actually change how they vote?
 

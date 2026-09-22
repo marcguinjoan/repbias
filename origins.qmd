@@ -78,7 +78,7 @@ Looking at 29 individually named historical reforms (the UK's 1868 and 1885 Refo
 :::
 :::::::
 
-This is now a working paper — *"Historical Malapportionment and Elite Redistricting Strategies"* — coauthored by Marc Guinjoan, Carles Boix and Pablo Beramendi. See it on the [Papers](papers.qmd) page.
+This is now a working paper — *"Historical Malapportionment and Elite Redistricting Strategies"* — coauthored by [Marc Guinjoan](http://marcguinjoan.cat), Carles Boix and Pablo Beramendi. See it on the [Papers](papers.qmd) page.
 
 ## A parallel historical line: caciquismo and electoral coordination
 
