@@ -4,6 +4,11 @@ project:
   resources:
     - maps/widgets/**
     - .nojekyll
+    - images/home_reform_act_1832.jpg
+    - images/origins_callaghan.jpg
+    - images/malapportionment_old_sarum.jpg
+    - images/minority_mete_kingi.jpg
+    - images/decomposing_bias_distortion.svg
 
 website:
   title: "REPBIAS"
