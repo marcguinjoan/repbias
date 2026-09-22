@@ -8,6 +8,7 @@ format:
 ```{=html}
 <style>
 #quarto-margin-sidebar { margin-top: 580px; }
+.quarto-title-block { display: none; }
 </style>
 <div class="hero-section photo-hero" style="background-image:url('images/malapportionment_old_sarum.jpg');">
   <div class="hero-text">
@@ -21,6 +22,8 @@ format:
 ```
 
 ::: embed-page-body
+
+## Distorted Democracies
 
 Most research on representation bias treats electoral institutions as a single bundle. *Distorted Democracies* (Beramendi, Boix, Guinjoan &amp; Rogers) instead isolates one institution — **malapportionment**, the mismatch between the share of seats and the share of votes or population allocated to each district — and asks how much of the total gap between voters and their parliament it actually explains, and in which ideological direction it pulls.
 

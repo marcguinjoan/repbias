@@ -144,7 +144,6 @@ body.quarto-light .hero-section.photo-hero::before {
   border-bottom: 1px solid var(--surface-divider);
   padding-bottom: 0.4rem;
 }
-.quarto-title-block { display: none; }
 
 /* ── Insight boxes (Home: key findings) ─────────────────────────────────── */
 .insight-grid {

@@ -2,11 +2,15 @@
 title: "Decomposing Bias"
 format:
   html:
-    toc: false
     page-layout: full
+    toc: true
 ---
 
 ```{=html}
+<style>
+#quarto-margin-sidebar { margin-top: 580px; }
+.quarto-title-block { display: none; }
+</style>
 <div class="hero-section photo-hero" style="background-image:url('images/decomposing_bias_distortion.svg');">
   <div class="hero-text">
     <span class="hero-eyebrow">DECOMPOSING BIAS</span>
@@ -19,6 +23,8 @@ format:
 ```
 
 ::: embed-page-body
+
+## Unpacking representation bias, one simulation at a time
 
 Electoral institutions are hard to study causally with real-world data: malapportionment, district magnitude, the seat-allocation formula and the legal threshold are jointly determined, endogenous, and rarely vary independently of one another in any single country. *Unpacking Representation Bias: A Simulation Approach to Electoral Institutions* (Guinjoan, Carbonell &amp; Rogers) sidestepped this problem by simulating large numbers of synthetic polities — up to 10,000 runs per exercise — in which each institutional parameter was introduced **exogenously and independently** of the others, validating the resulting decomposition against real data from Spain's 2019 European Parliament election.
 
@@ -36,10 +42,6 @@ This is where **MRB**, **SRB**, **ThRB** and **TRB** — introduced on the [Mala
 - Legal thresholds generate **meaningful bias only at levels well above common European practice**.
 - All three components **scale with party-system polarization and fragmentation**.
 
-## Try it yourself
-
-Use the controls inside the app below to set your own combination of malapportionment, district magnitude, seat-allocation formula and legal threshold, and watch the total distortion — and its MRB / SRB / ThRB decomposition — change in real time.
-
 :::
 
 ```{=html}
@@ -47,6 +49,14 @@ Use the controls inside the app below to set your own combination of malapportio
 <iframe src="https://mguinjoan.shinyapps.io/repbias" loading="lazy" title="REPBIAS interactive simulation app"></iframe>
 </div>
 ```
+
+::: embed-page-body
+
+## Try it yourself
+
+Use the controls inside the app above to set your own combination of malapportionment, district magnitude, seat-allocation formula and legal threshold, and watch the total distortion — and its MRB / SRB / ThRB decomposition — change in real time.
+
+:::
 
 ::: embed-footnote
 The app accompanies *"Unpacking Representation Bias: A Simulation Approach to Electoral Institutions"* (Guinjoan, Carbonell &amp; Rogers) — see the [Papers](papers.qmd) page. If the app does not load above, open it directly at [mguinjoan.shinyapps.io/repbias](https://mguinjoan.shinyapps.io/repbias){target="_blank"}.

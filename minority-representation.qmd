@@ -8,6 +8,7 @@ format:
 ```{=html}
 <style>
 #quarto-margin-sidebar { margin-top: 580px; }
+.quarto-title-block { display: none; }
 </style>
 <div class="hero-section photo-hero" style="background-image:url('images/minority_maori_parliament.webp');">
   <div class="hero-text">
@@ -21,6 +22,8 @@ format:
 ```
 
 ::: embed-page-body
+
+## Electoral institutions, malapportionment and the representation of ethnic minorities
 
 The representation of ethnic minorities in national legislatures varies enormously: in some countries minorities are privileged through reserved seats or territorial concentration, while in others they remain systematically excluded. *Electoral institutions, malapportionment and the representation of ethnic minorities* (Guinjoan, Mas &amp; Roura) asked how malapportionment itself shapes that variation — a mechanism that had received little comparative attention, largely because of the empirical difficulty of linking electoral outcomes to the territorial distribution of ethnic groups.
 

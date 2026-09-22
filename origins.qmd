@@ -1,5 +1,9 @@
 ---
 title: "Origins of Institutions"
+format:
+  html:
+    page-layout: full
+    toc: true
 ---
 
 ```{=html}
@@ -12,9 +16,12 @@ title: "Origins of Institutions"
   <div class="hero-credit"><em>The House of Commons, 1833</em> ("The Meeting of the First Reformed Parliament"), by Sir George Hayter — the first sitting of the Commons after the 1832 Reform Act. National Portrait Gallery, London, via Wikimedia Commons (public domain).</div>
   <div class="scroll-hint">&darr; scroll to explore</div>
 </div>
+<style>.quarto-title-block { display: none; }</style>
 ```
 
 ::: project-body
+
+## Are electoral institutions endogenous to the elites who design them?
 
 Electoral institutions are not handed down by nature — they are written, and redrawn, by the very political elites who compete under them. This raises an uncomfortable question for democratic theory: if incumbents control the rules of the game, do they bend those rules to protect their own advantage?
 
@@ -29,6 +36,14 @@ A key design feature ran through the whole analysis: **who draws the map**. All 
 :::
 
 Rather than asking a single question, the project broke the "do elites protect themselves?" problem into six testable pieces: does redistricting actually reduce malapportionment? Do reforms democratize the system or entrench their makers? Do governments *time* redistricting to protect their own seats? Are the seats that disappear disproportionately opposition-held? Does redistricting improve incumbents' over-representation? And, episode by episode, were the political intentions behind each reform actually realized?
+
+:::
+
+```{=html}
+<div></div>
+```
+
+::: project-body
 
 ## What we found
 
@@ -83,6 +98,10 @@ Looking at 29 individually named historical reforms (the UK's 1868 and 1885 Refo
 :::::::
 
 This is now a working paper — *"Historical Malapportionment and Elite Redistricting Strategies"* — coauthored by [Marc Guinjoan](http://marcguinjoan.cat), Carles Boix and Pablo Beramendi. See it on the [Papers](papers.qmd) page.
+
+:::
+
+::: project-body
 
 ## A parallel historical line: caciquismo and electoral coordination
 
