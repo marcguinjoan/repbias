@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - maps/widgets/**
+    - .nojekyll
 
 website:
   title: "REPBIAS"
